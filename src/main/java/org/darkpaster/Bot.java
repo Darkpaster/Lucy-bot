@@ -5,20 +5,21 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.entities.channel.middleman.MessageChannel;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import net.dv8tion.jda.api.entities.Activity;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.emoji.Emoji;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import org.jetbrains.annotations.NotNull;
+import org.json.simple.JSONObject;
 
-import javax.security.auth.login.LoginException;
+import java.io.*;
 
 public class Bot extends ListenerAdapter {
 
     public static final Emoji HEART = Emoji.fromUnicode("U+2764");
     public boolean gameStarted = false;
+    private boolean accountConnected = false;
     private final String[] commands = {"/help", "/gameHelp"};
 
     private MessageChannel chan;
@@ -31,7 +32,8 @@ public class Bot extends ListenerAdapter {
 
 
         JDA jda = JDABuilder.createLight("MTAzMTIzMjMyMzczMzE2NDA4Mg.GWJZnR.pOJ1ZiCvfSyzY6aSAuphsvFRTloq-wGyI80GNg",
-                GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT)
+                GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGE_REACTIONS,
+                        GatewayIntent.DIRECT_MESSAGE_REACTIONS)
                 .addEventListeners(new Bot())
                 .setActivity(Activity.watching("Berserk"))
                 .build();
@@ -49,14 +51,81 @@ public class Bot extends ListenerAdapter {
         realMsg = event.getMessage().getContentRaw();
         chan = event.getChannel();
 
-        if(msg.equals("/help")){
-            send("later");
+        if(msg.equals("!help")){
+            send("later.");
+        }
+        if(msg.equals("!play") && !gameStarted){
+            launchGame();
+        }
+        if(msg.equals("!exit") && gameStarted){
+            exitGame();
         }
 
-        commonCommands(event);
+        if(gameStarted){
+            game();
+        }else{
+            chatting(event);
+        }
+
     }
 
-    private void commonCommands(MessageReceivedEvent e){
+    private void game(){
+        if(!accountConnected){
+            connectAcc();
+        }else{
+
+        }
+
+    }
+
+    private void connectAcc(){
+        JSONObject json = new JSONObject();
+        String comm = "12345678912345:";
+        String str = msg.substring(0, comm.length() - 1);
+        if(str.equals("Create account:")){
+            File file = new File(msg.substring(comm.length() - 1, str.length()));
+            System.out.println("File exists: " + file.exists());
+            if(!file.exists()){
+                try {
+                    System.out.println(file.createNewFile());
+                }catch (IOException e){
+                    e.printStackTrace();
+                }
+            }
+            try {
+                ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
+                objStream.writeObject(json);
+                objStream.close();
+                send("Account has been created!");
+            }catch (IOException e){
+                e.printStackTrace();
+                System.out.println("govno");
+            }
+
+        }
+
+        if(msg.contains("Log in account:")){
+            File file = new File(msg.substring(comm.length() - 1, str.length()));
+            if(!file.exists()){
+                send("Invalid password.");
+            }else{
+                accountConnected = true;
+            }
+        }
+
+    }
+
+    private void exitGame(){
+        gameStarted = false;
+        send("Game mode disabled.");
+    }
+
+    private void launchGame(){
+        gameStarted = true;
+        send("Game mode enabled.");
+    }
+
+    private void chatting(MessageReceivedEvent e){
         if(msg.equalsIgnoreCase("berserk")){
             send("Berserk.");
         }
@@ -71,8 +140,7 @@ public class Bot extends ListenerAdapter {
 
                 send("?");
             }else{
-
-                send("What do you need?");
+                send("How can i help?");
             }
         }
         if(msg.equalsIgnoreCase("people")){
@@ -81,7 +149,7 @@ public class Bot extends ListenerAdapter {
         if(msg.equalsIgnoreCase("society")){
             send("Sucks.");
         }
-        if(msg.equalsIgnoreCase("doom")){
+        if(msg.equalsIgnoreCase("doomsday")){
             send("Is what we're all waiting for.");
         }
         if(msg.equalsIgnoreCase("Molly")){
@@ -91,16 +159,9 @@ public class Bot extends ListenerAdapter {
                 send("Is our god.");
             }
         }
-//        if(msg.getContentDisplay().compareTo("Test yes") == 0){
-//            System.out.println("equals");
-//        }else if(msg.getContentDisplay().compareTo("Test yes") > 0){
-//            System.out.println("more");
-//        }else if(msg.getContentDisplay().compareTo("Test yes") < 0){
-//            System.out.println("less");
-//        }
 
         if(msg.equalsIgnoreCase("Lucy stop")){
-            send("Ok");
+            send("Ok.");
         }
     }
 
@@ -111,7 +172,9 @@ public class Bot extends ListenerAdapter {
     @Override
     public void onMessageReactionAdd(@NotNull MessageReactionAddEvent event)
     {
-        System.out.println(event.getReaction().getEmoji());
+        //System.out.println(event.getReaction().getEmoji());
+
+        send("Meow.");
     }
 
 
