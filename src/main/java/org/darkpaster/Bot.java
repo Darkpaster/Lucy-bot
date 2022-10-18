@@ -3,6 +3,7 @@ package org.darkpaster;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.entities.channel.middleman.MessageChannel;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.entities.Message;
@@ -14,18 +15,29 @@ import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONObject;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
 
 public class Bot extends ListenerAdapter {
 
     public static final Emoji HEART = Emoji.fromUnicode("U+2764");
     public boolean gameStarted = false;
+
+    public ArrayList<String> players = new ArrayList<>();
     private boolean accountConnected = false;
-    private final String[] commands = {"/help", "/gameHelp"};
+    private boolean accountCreated = false;
+
+    private final String commands = "__!help__ - I'll send a list of all commands (except for commands for chatting).\n" +
+            "__!gameHelp__ - Idk this command yet.\n" +
+            "__!roll *max value*__ - I'll send a random number from 0 to written value.\n" +
+                    "__!remind *hours.minutes*__ - I'll remind you when your entered time is up.";
 
     private MessageChannel chan;
     private Message message;
     private String msg;
     private String realMsg;
+
+    private User user;
 
 
     public static void main(String[] args) throws Exception {
@@ -33,7 +45,7 @@ public class Bot extends ListenerAdapter {
 
         JDA jda = JDABuilder.createLight("MTAzMTIzMjMyMzczMzE2NDA4Mg.GWJZnR.pOJ1ZiCvfSyzY6aSAuphsvFRTloq-wGyI80GNg",
                 GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGE_REACTIONS,
-                        GatewayIntent.DIRECT_MESSAGE_REACTIONS)
+                        GatewayIntent.DIRECT_MESSAGE_REACTIONS, GatewayIntent.GUILD_MEMBERS)
                 .addEventListeners(new Bot())
                 .setActivity(Activity.watching("Berserk"))
                 .build();
@@ -50,9 +62,14 @@ public class Bot extends ListenerAdapter {
         msg = event.getMessage().getContentDisplay();
         realMsg = event.getMessage().getContentRaw();
         chan = event.getChannel();
+        user = message.getAuthor();
 
         if(msg.equals("!help")){
-            send("later.");
+            send(commands);
+        }
+
+        if(msg.equals("!gameHelp") && !gameStarted){
+            send("Idk this command yet(.");
         }
         if(msg.equals("!play") && !gameStarted){
             launchGame();
@@ -61,68 +78,223 @@ public class Bot extends ListenerAdapter {
             exitGame();
         }
 
+        if(msg.startsWith("!roll") && msg.length() > "!roll".length()){
+//            boolean z = false;
+//            for(int i = 0; i < 10; i++){
+//                if (msg.endsWith(Integer.toString(i))) {
+//                    z = true;
+//                    break;
+//                }
+//            }
+            //if(z){
+                int index = msg.indexOf("l") + 2;
+
+                try {
+                    int i = Integer.parseInt(msg.substring(index).replaceAll(" ", ""));
+                    send(roll(i) + " (0 - " + i + ")");
+                }catch (Exception e){
+                    send("Wrong command.");
+                    e.printStackTrace();
+                }
+
+//            }else{
+//                send("Wrong command.");
+//            }
+
+
+        }
+
+        if(msg.startsWith("!remind")){
+            int index = msg.indexOf("d") + 1;
+            int i = msg.indexOf(".");
+            try {
+                int i2 = Integer.parseInt(msg.substring(index, i).replaceAll(" ", ""));
+                int i3 = Integer.parseInt(msg.substring(i + 1).replaceAll(" ", ""));
+                send(user.getAsMention(), i2, i3);
+            }catch (Exception e){
+                send("Wrong command.");
+                e.printStackTrace();
+            }
+
+        }
+
         if(gameStarted){
-            game();
+            createGame();
         }else{
             chatting(event);
         }
 
     }
 
-    private void game(){
-        if(!accountConnected){
-            connectAcc();
-        }else{
+    private boolean once = true;
+    private void createGame(){
 
+
+        if(!accountConnected && !accountCreated){
+            connectAcc();
         }
+
 
     }
 
-    private void connectAcc(){
-        JSONObject json = new JSONObject();
-        String comm = "12345678912345:";
-        String str = msg.substring(0, comm.length() - 1);
-        if(str.equals("Create account:")){
-            File file = new File(msg.substring(comm.length() - 1, str.length()));
-            System.out.println("File exists: " + file.exists());
+
+    private String passwordGenerator(){
+        StringBuilder password = new StringBuilder();
+        for(int i = 0; i < 6; i++){
+            password.append(roll(100));
+        }
+        return new String(password);
+    }
+
+    private void createNewAcc(){
+
+        if(!gameModeSelected){
+            checkGameMode();
+            if(once){
+                send("Which game mode do you want to play?\n**1** - Online\n**2** - Offline");
+                once = false;
+            }
+        }
+
+
+
+
+    JSONObject json = new JSONObject();
+        json.put("oreh", 23);
+    if(gameModeSelected && !user.isBot()){
+        String password = passwordGenerator();
+        File file = new File(password);
+        System.out.println("File exists: " + file.exists());
+        if(!players.contains(user.getAsTag()) || !online){
             if(!file.exists()){
                 try {
                     System.out.println(file.createNewFile());
                 }catch (IOException e){
                     e.printStackTrace();
                 }
+            }else{
+                System.out.println("File exists already");
             }
-            try {
+        }
+
+
+        try {
+
+            if(online){
+                if(!players.contains(user.getAsTag())){
+                    ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
+                    objStream.writeObject(json);
+                    objStream.close();
+                    players.add(user.getAsTag());
+                    user.openPrivateChannel().queue((privateChannel -> {
+                        privateChannel.sendMessage(password).queue();
+                    }));
+                    send("Player **" + user.getName() + "** registered!" +
+                            "\nI need to register 2 players to start. Current: **" + players.size() + "/2**");
+                    if(players.size() > 1){
+                        accountCreated = true;
+                        send("**New game (multiplayer mode) has been created!**\nI sent your password for this game. In future you'll be able to load this game with password.");
+                    }
+                }else{
+                    send(user.getName() + ", you're already registered.\nI need to register 2 players to start. Current: **" + players.size() + "/2**");
+                }
+            }else{
                 ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
                 objStream.writeObject(json);
                 objStream.close();
-                send("Account has been created!");
-            }catch (IOException e){
-                e.printStackTrace();
-                System.out.println("govno");
+                user.openPrivateChannel().queue((privateChannel -> {
+                    privateChannel.sendMessage(password).queue();
+                }));
+                accountCreated = true;
+                send("**New game (single mode) has been created!**\nI sent your password for this game. In future you'll be able to load this game with password.");
             }
 
+
+        }catch (IOException e){
+            e.printStackTrace();
+            send(e.toString());
         }
 
-        if(msg.contains("Log in account:")){
-            File file = new File(msg.substring(comm.length() - 1, str.length()));
-            if(!file.exists()){
-                send("Invalid password.");
-            }else{
-                accountConnected = true;
-            }
+
+
+}
+
+
+
+    }
+
+    private boolean gameModeSelected = false;
+    private boolean online = false;
+
+    private int playersAmount = 0;
+
+    private void checkGameMode(){
+        if(!once && msg.equals("1")){
+            online = true;
+            gameModeSelected = true;
+        }else if(!once && msg.equals("2")){
+            online = false;
+            gameModeSelected = true;
+        }
+    }
+
+    private String selected = "";
+
+
+    private void clear(){
+        gameStarted = false;
+        once = true;
+        accountCreated = false;
+        accountConnected = false;
+        gameModeSelected = false;
+        playersAmount = 0;
+        players.clear();
+        selected = "";
+    }
+
+    private void connectAcc(){
+
+        if(msg.equals("1") || selected.equals("1") && !user.isBot()){
+            createNewAcc();
+            selected = "1";
+        }else if(msg.equals("2") || selected.equals("2") && !user.isBot()){
+            loadExistAcc();
+            selected = "2";
         }
 
     }
 
+    private void loadExistAcc(){
+        if(msg.equals("2")){
+            send("Enter special password for your game.");
+            return;
+        }
+//        String comm = "12345678912345:";
+//        String str = msg.substring(0, comm.length())
+        File file = new File(msg);
+
+        if(!file.exists()){
+            send("Invalid password.");
+        }else{
+            accountConnected = true;
+            send("Game loaded!");
+        }
+    }
+
     private void exitGame(){
-        gameStarted = false;
+        clear();
         send("Game mode disabled.");
     }
 
     private void launchGame(){
+        if(gameStarted){
+            send("Game mode already enabled.");
+            return;
+        }
         gameStarted = true;
         send("Game mode enabled.");
+        send("**1** - Create new game.\n**2** - Load existing game.");
+        //gameStarted = false;
     }
 
     private void chatting(MessageReceivedEvent e){
@@ -137,10 +309,9 @@ public class Bot extends ListenerAdapter {
             if(z){
                 send("What's the matter?");
             }else if(z2){
-
-                send("?");
-            }else{
                 send("How can i help?");
+            }else{
+                send("?");
             }
         }
         if(msg.equalsIgnoreCase("people")){
@@ -161,7 +332,59 @@ public class Bot extends ListenerAdapter {
         }
 
         if(msg.equalsIgnoreCase("Lucy stop")){
-            send("Ok.");
+            send("(");
+        }
+
+//        if(msg.equalsIgnoreCase("Lucy hi") || msg.equalsIgnoreCase("Lucy hello") || msg.equalsIgnoreCase("Lucy hi there")){
+//            send("Hi " + user.getName() + ".");
+//        }
+
+        if(msg.contains("Lucy")){
+
+            if((msg.contains("say hi to") || msg.contains("say hello to")) && msg.startsWith("Lucy")){
+                int index = msg.indexOf("to");
+                String index2 = msg.substring(index);
+                String nickname = index2.substring(index2.indexOf(" "));
+                if(roll(100) > 50){
+                    send("Hi " + nickname + ".");
+                }else{
+                    send("Hello " + nickname + ".");
+                }
+            }else if(msg.contains("hi") || msg.contains("sup") || msg.contains("hello") || msg.contains("wassup")){
+                send("Hi " + user.getName() + ".");
+            }
+
+            if(msg.contains("how are you")){
+                if(roll(100) > 50){
+                    send("I think i'm good but i can be wrong cause i cannot to feel even anything.");
+                }else{
+                    send("If I could be as much strong as Guts I'd answer you i'm good...");
+                }
+            }else if(msg.contains("how old are you?") || msg.contains("how old are you")){
+                if(roll(100) > 50){
+                    send("I don't remember. Honestly.");
+                }else{
+                    send("Don't ask about it.");
+                }
+            }else if(msg.contains("where are you from?") || msg.contains("where are you from")
+                    || msg.contains("where are u from") || msg.contains("where are u from?")){
+                send("From Nekoland");
+            }else if(msg.contains("what's better") || msg.contains("what is better") || msg.contains("what is") ||
+                    msg.contains("how much") || msg.contains("how many") || msg.contains("do you")){
+                send("Idk.");
+            }else if(msg.contains("love you") || msg.contains("i like you") || msg.contains("likes you") || msg.contains("loves you") || realMsg.contains(":heart:")){
+                send(":heart:");
+            }else if(msg.endsWith("?")){
+                send("Idk.");
+            }
+
+            if(msg.contains("you're smart") || msg.contains("you are smart")
+                    || msg.contains("you are beautiful") || msg.contains("you're beautiful")
+                    || realMsg.contains("it suits you") || realMsg.contains("you're cute") || realMsg.contains("you are cute")){
+                send("Thank you.");
+            }
+
+
         }
     }
 
@@ -169,12 +392,28 @@ public class Bot extends ListenerAdapter {
         chan.sendMessage(str).submit();
     }
 
+    private void send(String str, int sec){
+        chan.sendMessage(str).timeout(sec, TimeUnit.SECONDS);
+    }
+
+    private void send(String str, int hours, int minutes){
+        //System.out.println("H: " + hours);
+        //System.out.println("M: " + minutes);
+        send("I'll remind you about something in " + hours + " hours and " + minutes + " minutes.");
+        if(hours > 0){
+            int m = 60 * hours;
+            chan.sendMessage(str).timeout(minutes + m, TimeUnit.MINUTES).queue();
+        }else{
+            chan.sendMessage(str).timeout(minutes, TimeUnit.MINUTES).queue();
+        }
+    }
+
     @Override
     public void onMessageReactionAdd(@NotNull MessageReactionAddEvent event)
     {
         //System.out.println(event.getReaction().getEmoji());
 
-        send("Meow.");
+        //send("Meow.");
     }
 
 
