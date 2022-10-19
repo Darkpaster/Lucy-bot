@@ -13,6 +13,7 @@ import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -21,9 +22,11 @@ import java.util.concurrent.TimeUnit;
 public class Bot extends ListenerAdapter {
 
     public static final Emoji HEART = Emoji.fromUnicode("U+2764");
-    public boolean gameStarted = false;
+    private boolean gameStarted = false;
 
-    public ArrayList<String> players = new ArrayList<>();
+    protected ArrayList<User> players = new ArrayList<>();
+
+    protected String password;
     private boolean accountConnected = false;
     private boolean accountCreated = false;
 
@@ -32,12 +35,15 @@ public class Bot extends ListenerAdapter {
             "__!roll *max value*__ - I'll send a random number from 0 to written value.\n" +
                     "__!remind *hours.minutes*__ - I'll remind you when your entered time is up.";
 
-    private MessageChannel chan;
-    private Message message;
-    private String msg;
-    private String realMsg;
+    protected MessageChannel chan;
+    protected Message message;
+    protected String msg;
+    protected String realMsg;
 
-    private User user;
+    public Game game;
+    protected JSONObject jsObj;
+
+    protected User user;
 
 
     public static void main(String[] args) throws Exception {
@@ -91,7 +97,7 @@ public class Bot extends ListenerAdapter {
 
                 try {
                     int i = Integer.parseInt(msg.substring(index).replaceAll(" ", ""));
-                    send(roll(i) + " (0 - " + i + ")");
+                    send(user.getName() + " rolls **" + roll(i) + "** (0 - " + i + ")");
                 }catch (Exception e){
                     send("Wrong command.");
                     e.printStackTrace();
@@ -118,20 +124,40 @@ public class Bot extends ListenerAdapter {
 
         }
 
-        if(gameStarted){
-            createGame();
-        }else{
-            chatting(event);
+        if(!user.isBot()){
+
+            if(gameStarted){
+                createGame();
+            }else{
+                chatting(event);
+            }
+
         }
+
 
     }
 
     private boolean once = true;
+    private JSONObject json;
     private void createGame(){
 
 
         if(!accountConnected && !accountCreated){
             connectAcc();
+        }
+
+        if(accountCreated && game == null){
+            game = new Game();
+        }
+
+
+        if(accountConnected && game == null){
+            game = new Game();
+            game.loadGame();
+        }
+
+        if(game != null && players.contains(user)){
+            game.mainGameLoop(user, msg, realMsg, message, chan);
         }
 
 
@@ -140,7 +166,7 @@ public class Bot extends ListenerAdapter {
 
     private String passwordGenerator(){
         StringBuilder password = new StringBuilder();
-        for(int i = 0; i < 6; i++){
+        for(int i = 0; i < 9; i++){
             password.append(roll(100));
         }
         return new String(password);
@@ -154,54 +180,77 @@ public class Bot extends ListenerAdapter {
                 send("Which game mode do you want to play?\n**1** - Online\n**2** - Offline");
                 once = false;
             }
-        }
-
-
-
-
-    JSONObject json = new JSONObject();
-        json.put("oreh", 23);
-    if(gameModeSelected && !user.isBot()){
-        String password = passwordGenerator();
-        File file = new File(password);
-        System.out.println("File exists: " + file.exists());
-        if(!players.contains(user.getAsTag()) || !online){
-            if(!file.exists()){
-                try {
-                    System.out.println(file.createNewFile());
-                }catch (IOException e){
-                    e.printStackTrace();
-                }
-            }else{
-                System.out.println("File exists already");
+            if(gameModeSelected){
+                once = true;
             }
         }
 
+        if(online && !playersAmountSelected && gameModeSelected){
+            if(once){
+                send("Enter number of players.");
+                once = false;
+            }else{
+
+                try {
+                    int mess = Integer.parseInt(msg.replaceAll(" ", ""));
+                    if(mess > 5){
+                        send("Max number of players is 5. Enter number again.");
+                    }else{
+                        playersAmount = mess;
+                        playersAmountSelected = true;
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                    send("Invalid format. Enter a number.");
+                }
+
+            }
+
+        }
+        if(gameModeSelected && !online){
+            playersAmountSelected = true;
+        }
+
+
+//    JSONObject json = new JSONObject();
+//        json.put("oreh", 23);
+    if(gameModeSelected && playersAmountSelected){
 
         try {
 
             if(online){
-                if(!players.contains(user.getAsTag())){
-                    ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
-                    objStream.writeObject(json);
-                    objStream.close();
-                    players.add(user.getAsTag());
-                    user.openPrivateChannel().queue((privateChannel -> {
-                        privateChannel.sendMessage(password).queue();
-                    }));
+                if(!players.contains(user)){
+//                    ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
+//                    objStream.writeObject(json);
+//                    objStream.close();
+                    players.add(user);
                     send("Player **" + user.getName() + "** registered!" +
-                            "\nI need to register 2 players to start. Current: **" + players.size() + "/2**");
-                    if(players.size() > 1){
+                            "\nI need to register " + playersAmount + " players to start. Current: **" + players.size() + "/" + playersAmount + "**");
+                    if(players.size() >= playersAmount){
                         accountCreated = true;
+                        String password = passwordGenerator();
+                        this.password = password;
+                        File file = new File(password + ".json");
+                        for(User user: players){
+                            user.openPrivateChannel().queue((privateChannel -> {
+                                privateChannel.sendMessage(password).queue();
+                            }));
+                        }
+                        file.createNewFile();
                         send("**New game (multiplayer mode) has been created!**\nI sent your password for this game. In future you'll be able to load this game with password.");
                     }
                 }else{
-                    send(user.getName() + ", you're already registered.\nI need to register 2 players to start. Current: **" + players.size() + "/2**");
+                    send(user.getName() + ", you already registered.\nI need to register " + playersAmount + " players to start. Currently: **" + players.size() + "/2" + playersAmount +  "**");
                 }
             }else{
-                ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
-                objStream.writeObject(json);
-                objStream.close();
+//                ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
+//                objStream.writeObject(json);
+//                objStream.close();
+                String password = passwordGenerator();
+                this.password = password;
+                File file = new File(password + ".json");
+                file.createNewFile();
+                players.add(user);
                 user.openPrivateChannel().queue((privateChannel -> {
                     privateChannel.sendMessage(password).queue();
                 }));
@@ -239,6 +288,7 @@ public class Bot extends ListenerAdapter {
     }
 
     private String selected = "";
+    private boolean playersAmountSelected = false;
 
 
     private void clear(){
@@ -247,6 +297,7 @@ public class Bot extends ListenerAdapter {
         accountCreated = false;
         accountConnected = false;
         gameModeSelected = false;
+        playersAmountSelected = false;
         playersAmount = 0;
         players.clear();
         selected = "";
@@ -254,10 +305,10 @@ public class Bot extends ListenerAdapter {
 
     private void connectAcc(){
 
-        if(msg.equals("1") || selected.equals("1") && !user.isBot()){
+        if(msg.equals("1") || selected.equals("1")){
             createNewAcc();
             selected = "1";
-        }else if(msg.equals("2") || selected.equals("2") && !user.isBot()){
+        }else if(msg.equals("2") || selected.equals("2")){
             loadExistAcc();
             selected = "2";
         }
@@ -271,18 +322,35 @@ public class Bot extends ListenerAdapter {
         }
 //        String comm = "12345678912345:";
 //        String str = msg.substring(0, comm.length())
-        File file = new File(msg);
+        File file = new File(msg + ".json");
 
         if(!file.exists()){
             send("Invalid password.");
         }else{
             accountConnected = true;
             send("Game loaded!");
+            password = msg;
+            try {
+                JSONParser parser = new JSONParser();
+                FileReader file2 = new FileReader(password + ".json");
+                Object obj = parser.parse(file2);
+                JSONObject jsObj = (JSONObject) obj;
+                System.out.println(jsObj);
+                this.jsObj = jsObj;
+            }catch (Exception e){
+                e.printStackTrace();
+                send("Error.");
+            }
+
         }
     }
 
-    private void exitGame(){
+    protected void exitGame(){
         clear();
+        if(game != null){
+            game.saveGame();
+        }
+        game = null;
         send("Game mode disabled.");
     }
 
@@ -298,6 +366,23 @@ public class Bot extends ListenerAdapter {
     }
 
     private void chatting(MessageReceivedEvent e){
+
+//        if(msg.equals("test1")){
+//            send("Message", 5);
+//        }
+//        if(msg.equals("test2")){
+//            sendContent("Message", "Content");
+//        }
+//        if(msg.equals("test3")){
+//            sendQue("Message");
+//        }
+//        if(msg.equals("test4")){
+//            sendOnce("Message", "nonce");
+//        }
+        if(msg.equals("test5")){
+            sendReference("Message");
+        }
+
         if(msg.equalsIgnoreCase("berserk")){
             send("Berserk.");
         }
@@ -339,7 +424,7 @@ public class Bot extends ListenerAdapter {
 //            send("Hi " + user.getName() + ".");
 //        }
 
-        if(msg.contains("Lucy")){
+        if(msg.contains("Lucy") || msg.contains("lucy")){
 
             if((msg.contains("say hi to") || msg.contains("say hello to")) && msg.startsWith("Lucy")){
                 int index = msg.indexOf("to");
@@ -388,23 +473,41 @@ public class Bot extends ListenerAdapter {
         }
     }
 
-    private void send(String str){
-        chan.sendMessage(str).submit();
+    protected void send(String msg){
+        chan.sendMessage(msg).submit();
     }
 
-    private void send(String str, int sec){
-        chan.sendMessage(str).timeout(sec, TimeUnit.SECONDS);
+    protected void sendReference(String msg){
+        chan.sendMessage(msg).setMessageReference(message).submit();
     }
 
-    private void send(String str, int hours, int minutes){
+    protected void sendQue(String msg){
+        chan.sendMessage(msg).queue();
+    }
+
+    protected void sendOnce(String msg, String nonce){
+        chan.sendMessage(msg).setNonce(nonce).submit();
+    }
+
+    protected void sendContent(String msg, String content){
+        chan.sendMessage(msg).addContent(content).submit();
+    }
+
+    protected void send(String msg, int sec){
+        chan.sendMessage(msg).submitAfter(sec, TimeUnit.SECONDS);
+    }
+
+    private void send(String msg, int hours, int minutes){
         //System.out.println("H: " + hours);
         //System.out.println("M: " + minutes);
         send("I'll remind you about something in " + hours + " hours and " + minutes + " minutes.");
         if(hours > 0){
             int m = 60 * hours;
-            chan.sendMessage(str).timeout(minutes + m, TimeUnit.MINUTES).queue();
+            chan.sendMessage(msg + " Your time is up.").submitAfter(minutes + m, TimeUnit.MINUTES);
+            //chan.sendMessage(str).timeout(minutes + m, TimeUnit.MINUTES);
         }else{
-            chan.sendMessage(str).timeout(minutes, TimeUnit.MINUTES).queue();
+            chan.sendMessage(msg + " Your time is up.").submitAfter(minutes, TimeUnit.MINUTES);
+            //chan.sendMessage(str).timeout(minutes, TimeUnit.MINUTES);
         }
     }
 
@@ -417,7 +520,8 @@ public class Bot extends ListenerAdapter {
     }
 
 
-    public static int roll( int max ) {
+    protected int roll(int max) {
+        max++;
         return max > 0 ? (int)(Math.random() * max) : 0;
     }
 
