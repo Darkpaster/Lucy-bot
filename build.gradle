@@ -16,6 +16,7 @@ dependencies {
     implementation("net.dv8tion:JDA:5.0.0-alpha.21")
     implementation("org.slf4j:slf4j-simple:1.6.1")
     implementation("com.googlecode.json-simple:json-simple:1.1.1")
+    implementation("com.google.code.gson:gson:2.9.1")
 }
 
 test {
