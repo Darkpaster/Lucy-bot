@@ -1,6 +1,10 @@
 package org.darkpaster.actor;
 
+import org.darkpaster.Bot;
 import org.darkpaster.Game;
+import org.darkpaster.actor.hero.Hero;
+import org.darkpaster.utils.Coordinates;
+import org.darkpaster.utils.Random;
 
 public class Actor {
 protected int x;
@@ -14,10 +18,17 @@ protected int HP;
 protected int HT;
 protected int MP;
 protected int MT;
+
+protected int attackRange = 1;
+
+protected int minDmg;
+protected int maxDmg;
 protected float critChance;
 protected float critDmg;
 protected float dodgeChance;
 protected float hitChance;
+    protected boolean noticed;
+protected Actor target;
 
 public Actor(){
     name = "actor";
@@ -27,6 +38,28 @@ public Actor(){
     critDmg = 2;
     dodgeChance = 0;
     hitChance = 1;
+}
+
+public void attack(Actor enemy){
+    if(canAttack(enemy)){
+        enemy.HP -= dmgRoll();
+        Bot.send("**" + name + "** hits **" + enemy.name + "**.\n" + name + "HP: " + HP + "\n" + enemy.name + "HP: " + enemy.HP);
+        if(enemy.HP < 0){
+            Bot.send("**" + enemy.name + "** dies.");
+            enemy.name = "dead";
+            enemy = null;
+        }
+    }else{
+        Bot.sendA("You're too far from target.");
+    }
+}
+
+protected boolean canAttack(Actor enemy){
+    return Coordinates.pointDistanceXYZ(this, enemy) <= attackRange;
+}
+
+protected int dmgRoll(){
+    return Random.NormalIntRange(minDmg, maxDmg);
 }
 
 public float getSpeed(){return speed;}
@@ -40,46 +73,7 @@ public float getSpeed(){return speed;}
     public int getZ(){return z;}
 
 
-public boolean move(String direction){
 
-        switch (direction){
-            case "right":
-                x += speed;
-                return true;
-            case "left":
-                x -= speed;
-                return true;
-            case "back":
-                y += speed;
-                return true;
-            case "forward":
-                y -= speed;
-                return true;
-        }
-
-    return false;
-}
-
-    public boolean move(String direction, int num){
-    if(num <= 1){
-        return false;
-    }
-
-        for (int i = 1; i < num; i++) {
-            switch (direction){
-                case "right":
-                    x += speed;
-                case "left":
-                    x -= speed;
-                case "back":
-                    y += speed;
-                case "forward":
-                    y -= speed;
-            }
-        }
-
-        return true;
-    }
 
 
 }

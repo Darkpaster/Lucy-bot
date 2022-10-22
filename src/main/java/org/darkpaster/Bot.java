@@ -1,17 +1,15 @@
 package org.darkpaster;
 
+import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.entities.Activity;
-import net.dv8tion.jda.api.entities.Guild;
-import net.dv8tion.jda.api.entities.User;
-import net.dv8tion.jda.api.entities.channel.middleman.MessageChannel;
+import net.dv8tion.jda.api.entities.*;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
-import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.emoji.Emoji;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.requests.GatewayIntent;
+import net.dv8tion.jda.api.utils.FileUpload;
 import org.jetbrains.annotations.NotNull;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -19,11 +17,18 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
 public class Bot extends ListenerAdapter {
 
     public static final Emoji HEART = Emoji.fromUnicode("U+2764");
+
+//    public static final EmbedBuilder files = new EmbedBuilder().setImage("attachment://black.png")
+//            .setImage("attachment://giant_rat.png").setImage("attachment://dungeon.png");
+
+    public static final File blackPath = new File("attachFiles/black.jpg");
+    public static final File sign = new File("attachFiles/sign.jpg");
     private boolean gameStarted = false;
 
     protected ArrayList<User> players = new ArrayList<>();
@@ -47,7 +52,7 @@ public class Bot extends ListenerAdapter {
     public static Game game;
     protected JSONObject jsObj;
 
-    protected User user;
+    protected static User user;
 
     public static JDA jda;
 
@@ -97,14 +102,7 @@ public class Bot extends ListenerAdapter {
         }
 
         if(msg.startsWith("!roll") && msg.length() > "!roll".length()){
-//            boolean z = false;
-//            for(int i = 0; i < 10; i++){
-//                if (msg.endsWith(Integer.toString(i))) {
-//                    z = true;
-//                    break;
-//                }
-//            }
-            //if(z){
+
                 int index = msg.indexOf("l") + 2;
 
                 try {
@@ -115,9 +113,6 @@ public class Bot extends ListenerAdapter {
                     e.printStackTrace();
                 }
 
-//            }else{
-//                send("Wrong command.");
-//            }
 
 
         }
@@ -226,8 +221,6 @@ public class Bot extends ListenerAdapter {
         }
 
 
-//    JSONObject json = new JSONObject();
-//        json.put("oreh", 23);
     if(gameModeSelected && playersAmountSelected){
 
         try {
@@ -235,9 +228,6 @@ public class Bot extends ListenerAdapter {
             if(online){
                 if(msg.equals("!ready")){
                     if(!players.contains(user)){
-//                    ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
-//                    objStream.writeObject(json);
-//                    objStream.close();
                         players.add(user);
                         send("Player **" + user.getName() + "** registered!" +
                                 "\nI need to register " + playersAmount + " players to start. Current: **" + players.size() + "/" + playersAmount + "**");
@@ -261,9 +251,6 @@ public class Bot extends ListenerAdapter {
                 }
 
             }else{
-//                ObjectOutputStream objStream = new ObjectOutputStream(new FileOutputStream(file));
-//                objStream.writeObject(json);
-//                objStream.close();
                 String password = passwordGenerator();
                 this.password = password;
                 File file = new File(password + ".json");
@@ -486,8 +473,17 @@ private MessageChannel gameChannel;
         chan.sendMessage(msg).submit();
     }
 
+    public static void sendA(String msg){
+        chan.sendMessage(game.currentTurnUser.getAsMention() +"\n"+ msg).submit();
+    }
+
+    public static void sendAttach(String msg, File file){
+        chan.sendMessage(msg).addFile(file).queue();
+    }
+
     public static void sendReference(String msg){
-        chan.sendMessage(msg).setMessageReference(message).submit();
+        //chan.sendMessage(msg).setMessageReference(message).submit();
+        chan.sendMessage(msg).reference(message).submit();
     }
 
     public static void sendQue(String msg){
@@ -495,11 +491,11 @@ private MessageChannel gameChannel;
     }
 
     public static void sendOnce(String msg, String nonce){
-        chan.sendMessage(msg).setNonce(nonce).submit();
+        chan.sendMessage(msg).nonce(nonce).submit();
     }
 
     public static void sendContent(String msg, String content){
-        chan.sendMessage(msg).addContent(content).submit();
+        chan.sendMessage(msg).content(content).submit();
     }
 
     public static void send(String msg, int sec){
@@ -529,20 +525,8 @@ private MessageChannel gameChannel;
     }
 
 
-    protected int roll(int max) {
+    private int roll(int max) {
         max++;
         return max > 0 ? (int)(Math.random() * max) : 0;
     }
-
-//    public static int roll( int min, int max ) {
-//        return min + (int)(Math.random() * (max - min));
-//    }
-//
-//    public static int roll2( int min, int max ) {
-//        return min + (int)(Math.random() * (max - min + 1));
-//    }
-//
-//    public static int roll3( int min, int max ) {
-//        return min + (int)((Math.random() + Math.random()) * (max - min + 1) / 2f);
-//    }
 }
