@@ -3,6 +3,7 @@ package org.darkpaster.actor;
 import org.darkpaster.Bot;
 import org.darkpaster.Game;
 import org.darkpaster.actor.hero.Hero;
+import org.darkpaster.actor.mob.Mob;
 import org.darkpaster.utils.Coordinates;
 import org.darkpaster.utils.Random;
 
@@ -42,15 +43,26 @@ public Actor(){
 
 public void attack(Actor enemy){
     if(canAttack(enemy)){
-        enemy.HP -= dmgRoll();
-        Bot.send("**" + name + "** hits **" + enemy.name + "**.\n" + name + "HP: " + HP + "\n" + enemy.name + "HP: " + enemy.HP);
-        if(enemy.HP < 0){
+        int dmg = dmgRoll();
+        enemy.HP -= dmg;
+        Bot.send("**" + name + "** hits **" + enemy.name + "** and deals **" + dmg + "** damage.\n" + name + " HP: " + HP + "\n" + enemy.name + " HP: " + enemy.HP);
+        if(enemy.HP <= 0){
+
             Bot.send("**" + enemy.name + "** dies.");
             enemy.name = "dead";
-            enemy = null;
+            if(enemy instanceof Mob){
+                Bot.game.getHero().currentLevel.enemies.remove(enemy);
+            }
+        }
+        if(this instanceof Hero){
+            Bot.game.spended = 1;
         }
     }else{
-        Bot.sendA("You're too far from target.");
+        if(this instanceof Hero){
+            Bot.sendA("You're too far from target.");
+        }else{
+            System.out.println("mob can't attack");
+        }
     }
 }
 

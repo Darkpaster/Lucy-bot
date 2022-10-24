@@ -2,6 +2,7 @@ package org.darkpaster.levels;
 
 import org.darkpaster.Bot;
 import org.darkpaster.actor.hero.Hero;
+import org.darkpaster.actor.mob.GiantRat;
 
 public class SpawnDungeon extends Level{
 
@@ -14,6 +15,7 @@ public class SpawnDungeon extends Level{
         lighting = 3;
         depth = -200;
         title = "Unknown dungeon.";
+        dwellingEnemies.add(new GiantRat());
     }
 
 

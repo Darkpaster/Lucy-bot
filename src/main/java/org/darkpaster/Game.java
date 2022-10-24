@@ -10,6 +10,7 @@ import org.darkpaster.actor.mob.Mob;
 import org.darkpaster.levels.Level;
 import org.darkpaster.levels.SpawnDungeon;
 import org.darkpaster.utils.Coordinates;
+import org.darkpaster.utils.StringEditor;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -23,8 +24,6 @@ public class Game {
     public int realTime = 0;
     public int turns = 0;
     private boolean endTurn = false;
-
-    public boolean combatMode = false;
     public float excess = 0;
 
     public boolean onlineMode = false;
@@ -53,16 +52,14 @@ public class Game {
         startDungeon = new SpawnDungeon();
         heroes = new Hero[players.size()];
         SpawnDungeon dun = new SpawnDungeon();
+        currentTurnUser = players.get(0);
+        this.password = password;
         for (int i = 0; i < this.players.size(); i++) {
             System.out.println(i);
             heroes[i] = new Hero();
             heroes[i].currentLevel = dun;
         }
         System.out.println("Heroes[0]: " + heroes[0]);
-
-        currentTurnUser = players.get(0);
-        this.password = password;
-        init();
     }
 
     public Game(JSONObject jsObj, Guild guild){
@@ -71,14 +68,16 @@ public class Game {
         loadGame();
     }
 
-    private void init(){
-        heroes[0].currentLevel.levelInit();
-        Bot.sendAttach("You remember nothing about who you are and what are you doing in this place.", Bot.sign);
+     void init(boolean first){
+        getHero().currentLevel.levelInit();
+         if (first) {
+             Bot.sendAttach("You remember nothing about who you are and what are you doing in this place.", Bot.sign);
+         }
         currTurn();
     }
 
 
-    protected void saveGame(){
+     void saveGame(){
         jsObj = new JSONObject();
 
         System.out.println(players);
@@ -111,7 +110,7 @@ public class Game {
 
     }
 
-    protected void loadGame(){
+     void loadGame(){
         //System.out.println("LoadGame method jsObj: " + jsObj);
         int ind = 0;
 
@@ -144,6 +143,8 @@ public class Game {
 
 
 private final String WRONG = "Wrong command.";
+
+    public float spended = 0;
     protected void mainGameLoop(User user, String msg, String realMsg, Message message, MessageChannel chan){
         this.user = user;
         this.msg = msg;
@@ -151,46 +152,61 @@ private final String WRONG = "Wrong command.";
         this.message = message;
         this.chan = chan;
 
+        spended = 0;
+
+        boolean combMode = getHero().currentLevel.combatMode;
+
 
         if(!currentTurnUser.equals(user) && msg.startsWith("!")){
-            Bot.sendA("Now is not your turn.");
+            Bot.send(user.getAsMention() + " Now is not your turn.");
             return;
         }
 
         infoCommands();
 
         if(msg.equals("!attack") && getHero().currentLevel.combatMode){
+            System.out.println("attack!");
             getHero().attack(getHero().currentLevel.enemies.get(0));
-            spend(1);
+        }
+
+        if(msg.equals("!wait")){
+            Bot.send("One turn skipped.");
+            spended = 1;
         }
 
         if(msg.startsWith("!move")){
-            if(getHero().move(cutString(msg))){
-                Bot.send("You walked 1 meter.");
-                spend(getHero().getSpeed());
+            if(getHero().move(StringEditor.cutStr(msg))){
+                Bot.send("You walked " + (int) getHero().getSpeed() + " meter.");
+                spended = 1;
+                getHero().currentLevel.levelEvent(getHero());
             }else{
-                if(combatMode){
+                if(getHero().currentLevel.combatMode){
                     Bot.send("You cannot travel long distances in combat.");
                     return;
                 }
-                if(cutString(msg).length() > "forward".length()){
+                System.out.println("here: " + StringEditor.cutStr(msg).length() + "/" + "forward".length());
+                //if(StringEditor.cutStr(msg).length() > "forward".length()){
                     String sub = "";
                     try {
                         String dirs[] = {"left", "right", "forward", "back"};
-                        for (int i = 0; i < dirs.length; i++) {
-                            if(cutString(msg).startsWith(dirs[i])){
-                                System.out.println(cutString(msg).substring(dirs[i].length()));
-                                sub = cutString(msg).substring(dirs[i].length());
-                                for (int j = 0; j < Integer.parseInt(sub); j++) {
-                                    if(!getHero().move(dirs[i])){
+                        for (String dir : dirs) {
+                            System.out.println(StringEditor.cutStr(msg));
+                            if (StringEditor.cutStr(msg).startsWith(dir)) {
+                                System.out.println(StringEditor.cutStr(msg).substring(dir.length()));
+                                sub = StringEditor.cutStr(msg).substring(dir.length());
+                                for (int j = 0; j <= Integer.parseInt(sub); j++) {
+                                    System.out.println("move!!!!!!!!!!");
+                                    if (!getHero().move(dir)) {
                                         System.out.println("Move error.");
-                                        return;
                                     }
                                     getHero().currentLevel.levelEvent(getHero());
-                                    if(getHero().currentLevel.combatMode){
-                                        Bot.sendA("You walked " + j * getHero().getSpeed() + " meters and noticed **" + getHero().currentLevel.enemies.get(0).getName() + "**.");
-                                        spend(j);
-                                        return;
+                                    if (getHero().currentLevel.combatMode) {
+                                        Bot.sendA("You walked " + (int) (j * getHero().getSpeed()) + " meters and noticed **" + getHero().currentLevel.enemies.get(0).getName() + "**.");
+                                        spended = j;
+                                        break;
+                                    }else if(j == Integer.parseInt(sub)){
+                                        Bot.sendA("You walked " + (int) (j * getHero().getSpeed()) + " meters.");
+                                        spended = j;
                                     }
                                 }
 
@@ -198,39 +214,23 @@ private final String WRONG = "Wrong command.";
 
                         }
 
-//                        if(cutString(msg).startsWith("left")){
-//
-//                        }else if(cutString(msg).startsWith("right")){
-//                            sub = cutString(msg).substring(5);
-//                            getHero().move("right", Integer.parseInt(sub));
-//                            float num = Integer.parseInt(sub) > 1 ? getHero().getSpeed() * Integer.parseInt(sub) : getHero().getSpeed();
-//                            Bot.send("You walked " + num + " meters.");
-//                            spend(Integer.parseInt(sub));
-//                        }else if(cutString(msg).startsWith("back")){
-//                            sub = cutString(msg).substring(4);
-//                            getHero().move("back", Integer.parseInt(sub));
-//                            float num = Integer.parseInt(sub) > 1 ? getHero().getSpeed() * Integer.parseInt(sub) : getHero().getSpeed();
-//                            Bot.send("You walked " + num + " meters.");
-//                            spend(Integer.parseInt(sub));
-//                        }else if(cutString(msg).startsWith("forward")){
-//                            sub = cutString(msg).substring(7);
-//                            getHero().move("forward", Integer.parseInt(sub));
-//                            float num = Integer.parseInt(sub) > 1 ? getHero().getSpeed() * Integer.parseInt(sub) : getHero().getSpeed();
-//                            Bot.send("You walked " + num + " meters.");
-//                            spend(Integer.parseInt(sub));
-//                        }else{
-//                            Bot.send(WRONG);
-//                            return;
-//                        }
-
 
                     }catch (Exception e){
+                        e.printStackTrace();
                         Bot.send(WRONG);
                     }
 
 
-                }
+                //}
             }
+        }
+
+        if (getHero().currentLevel.combatMode && !combMode) {
+            Bot.sendA("You noticed **" + getHero().currentLevel.enemies.get(0).getName() + "**.");
+        }
+
+        if(spended > 0){
+            spend(spended);
         }
 
 
@@ -238,7 +238,7 @@ private final String WRONG = "Wrong command.";
 
     private void infoCommands(){
         if(msg.equals("!current turn info")){
-
+            Bot.send("Now " + currentTurnUser.getAsMention() + "'s turn.");
         }
 
         if(msg.equals("!time")){
@@ -251,13 +251,27 @@ private final String WRONG = "Wrong command.";
     }
 
     private void enemyTurn(){
-
-        getHero().currentLevel.levelEvent(getHero());
+        boolean z = false;
+        for(Hero hero: heroes){
+            boolean combatMode = hero.currentLevel.combatMode;
+            if(combatMode && hero.currentLevel.enemies.size() == 0){
+                z = true;
+                hero.currentLevel.combatMode = false;
+            }
+        }
+        if(z){
+            Bot.send("Combat mode disabled.");
+        }
 
         if(getHero().currentLevel.combatMode){
+            System.out.println("123");
             for(Mob mob: getHero().currentLevel.enemies){
+                System.out.println("12345");
                 mob.act(heroes);
             }
+        }else{
+            System.out.println("1234567");
+            getHero().currentLevel.levelEvent(getHero());
         }
     }
 
@@ -301,27 +315,25 @@ private final String WRONG = "Wrong command.";
 
     public void nextTurn(int turns){
         System.out.println("NextTurn readed");
+        System.out.println(turns);
         enemyTurn();
         if(players.size() == 1){
             return;
         }
         User previousUser = currentTurnUser;
-        if(turns > 1){
-            getHero().skipTurn += turns - 1;
-        }else{
-            getHero().skipTurn--;
-        }
-        if(getHero().skipTurn < 0){
-            getHero().skipTurn = 0;
-        }
+
+        skipTurn();
+
         if(currentTurnUser.equals(players.get(players.size() - 1))){
             //fight methode
             if(getHero(players.get(0)).skipTurn <= getHero().skipTurn){
                 currentTurnUser = players.get(0);
+                System.out.println("zzzzzzz");
             }
         }else{
             if(getHero().skipTurn >= getHero(players.get(players.indexOf(currentTurnUser) + 1)).skipTurn){
                 currentTurnUser = players.get(players.indexOf(currentTurnUser) + 1);
+                System.out.println("fffffffffff");
             }
 
         }
@@ -332,6 +344,20 @@ private final String WRONG = "Wrong command.";
     }
 
     private void skipTurn(){
+        boolean z = turns > 1;
+        if(z){
+            getHero().skipTurn += turns;
+        }
+
+        for(Hero hero: heroes){
+            if(!hero.equals(getHero()) && hero.skipTurn > 0){
+                if(z){
+                    hero.skipTurn -= turns;
+                }else{
+                    hero.skipTurn--;
+                }
+            }
+        }
 
     }
 
@@ -352,12 +378,6 @@ private final String WRONG = "Wrong command.";
     }
 
 
-
-
-    private String cutString(String s){
-        int i = s.indexOf(" ");
-        return s.substring(i + 1).replaceAll(" ", "");
-    }
 
     private String cutString(String s, int i){
         return s.substring(i);

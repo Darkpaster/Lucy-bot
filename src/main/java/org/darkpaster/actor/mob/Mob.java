@@ -14,10 +14,14 @@ public class Mob extends Actor {
 
     public float getRarity(){return rarity;}
     public Mob(){
-        x = calc(Bot.game.getHero().getX(), Bot.game.getHero().getVisibilityRange());
-        y = calc(Bot.game.getHero().getY(), Bot.game.getHero().getVisibilityRange());
-        z = Bot.game.getHero().getZ();
-    }
+
+        }
+
+        public void initPos(){
+            x = calc(Bot.game.getHero().getX(), Bot.game.getHero().getVisibilityRange());
+            y = calc(Bot.game.getHero().getY(), Bot.game.getHero().getVisibilityRange());
+            z = Bot.game.getHero().getZ();
+        }
 
     protected void checkDistance(Hero[] heroes){
         boolean z = false;
@@ -27,7 +31,7 @@ public class Mob extends Actor {
                 z = true;
                 if(target == null){
                     target = hero;
-                    Bot.sendA(this.name + " noticed you!");
+                    Bot.sendA("**" + this.name + "** noticed you!");
                 }
 
             }
@@ -36,7 +40,7 @@ public class Mob extends Actor {
             if(noticed){
                 noticed = false;
                 target = null;
-                Bot.sendA(this.name + " no longer chasing you.");
+                Bot.sendA("**" + this.name + "** no longer chasing you.");
             }
 
         }
@@ -77,7 +81,7 @@ public class Mob extends Actor {
         }
 
         if(Bot.game.getHero().getVisibilityRange() >= Coordinates.pointDistanceXY(Bot.game.getHero(), this)){
-            Bot.send(this.name + " moved.");
+            Bot.send("**" + this.name + "** moved.");
         }
     }
 
@@ -92,7 +96,7 @@ public class Mob extends Actor {
             y--;
         }
 
-        Bot.sendA(this.name + " is chasing you.");
+        Bot.sendA("**" + this.name + "** is chasing you.");
     }
 
 

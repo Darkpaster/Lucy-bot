@@ -153,12 +153,16 @@ public class Bot extends ListenerAdapter {
 
         if(accountCreated && game == null){
             game = new Game(players, password, guild);
+            System.out.println("Players: " + game.players);
+            System.out.println("Heroes: " + game.heroes);
+            game.init(true);
         }
 
 
         if(accountConnected && game == null){
             //System.out.println("Passed to game jsObj" + jsObj);
             game = new Game(jsObj, guild);
+            game.init(false);
         }
 
         if(game != null && game.players.contains(user)){

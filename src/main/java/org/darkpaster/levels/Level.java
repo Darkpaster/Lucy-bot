@@ -2,6 +2,7 @@ package org.darkpaster.levels;
 
 import org.darkpaster.Bot;
 import org.darkpaster.actor.hero.Hero;
+import org.darkpaster.actor.mob.GiantRat;
 import org.darkpaster.actor.mob.Mob;
 import org.darkpaster.utils.Random;
 
@@ -50,12 +51,11 @@ public class Level {
 
 
     public void levelEvent(Hero hero){
-        if(enemies.get(0) == null || enemies.get(0).getName().equals("dead")){
-            enemies.clear();
-            combatMode = false;
-        }
+        System.out.println("Combat mode: " + combatMode);
+
         if(Random.Int(100) > 90 && !combatMode){
             combatMode = true;
+            Bot.send("Combat mode enabled.");
             chanceToMeet();
         }
     }
@@ -63,8 +63,9 @@ public class Level {
     protected void chanceToMeet(){
         float random = Random.Float();
         for(Mob mob: dwellingEnemies){
-            if(mob.getRarity() < random){
+            if(mob.getRarity() > random){
                 enemies.add(mob);
+                mob.initPos();
                 spawnSign();
             }
         }

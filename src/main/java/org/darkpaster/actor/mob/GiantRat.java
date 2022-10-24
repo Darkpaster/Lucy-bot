@@ -11,5 +11,6 @@ public class GiantRat extends Mob{
         minDmg = 1;
         maxDmg = 3;
         DR = 0;
+        noticeRange = 10;
     }
 }
