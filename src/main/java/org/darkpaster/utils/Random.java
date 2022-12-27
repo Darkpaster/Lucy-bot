@@ -27,4 +27,8 @@ public class Random {
         return ((int) (((Math.random() + Math.random()) * ((double) ((max - min) + 1))) / 2.0d)) + min;
     }
 
+    public static String randomString(String... strings){
+        return strings[Int(strings.length - 1)];
+    }
+
 }

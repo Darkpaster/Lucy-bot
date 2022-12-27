@@ -40,7 +40,7 @@ public class Game {
 
     private JSONObject jsObj;
 
-    public Hero[] heroes;
+    public ArrayList<Hero> heroes = new ArrayList<>();
 
     private SpawnDungeon startDungeon;
 
@@ -50,16 +50,16 @@ public class Game {
         this.guild = guild;
         this.players = players;
         startDungeon = new SpawnDungeon();
-        heroes = new Hero[players.size()];
+        //heroes = new Hero[players.size()];
         SpawnDungeon dun = new SpawnDungeon();
         currentTurnUser = players.get(0);
         this.password = password;
         for (int i = 0; i < this.players.size(); i++) {
             System.out.println(i);
-            heroes[i] = new Hero();
-            heroes[i].currentLevel = dun;
+            heroes.add(i, new Hero());
+            heroes.get(i).currentLevel = dun;
         }
-        System.out.println("Heroes[0]: " + heroes[0]);
+        //System.out.println("Heroes[0]: " + heroes[0]);
     }
 
     public Game(JSONObject jsObj, Guild guild){
@@ -82,8 +82,8 @@ public class Game {
 
         System.out.println(players);
 
-        for(int i = 0; i < heroes.length; i++){
-            String jsonInString = new Gson().toJson(heroes[i]);
+        for(int i = 0; i < heroes.size(); i++){
+            String jsonInString = new Gson().toJson(heroes.get(i));
                 jsObj.put("hero" + i, jsonInString);
             System.out.println("Saved id = " + players.get(i).getIdLong());
             jsObj.put("players" + i, players.get(i).getIdLong());
@@ -120,12 +120,12 @@ public class Game {
                 ind = i;
             }
         }
-        heroes = new Hero[ind + 1];
+        //heroes = new Hero[ind + 1];
 
         password = (String) jsObj.get("password");
 
         for (int i = 0; i <= ind; i++) {
-            heroes[i] = new Gson().fromJson((String) jsObj.get("hero" + i), Hero.class);
+            heroes.add(i, new Gson().fromJson((String) jsObj.get("hero" + i), Hero.class));
             long userId = (Long) jsObj.get("players" + i);
             players.add(i, Bot.jda.retrieveUserById(userId).complete());
         }
@@ -137,7 +137,7 @@ public class Game {
         excess = (float) ebal;
         ebal = (double) jsObj.get("time");
         time = (float) ebal;
-        ebal = (int) jsObj.get("realTime");
+        ebal = (long) jsObj.get("realTime");
         realTime = (int) ebal;
     }
 
@@ -188,7 +188,7 @@ private final String WRONG = "Wrong command.";
                 //if(StringEditor.cutStr(msg).length() > "forward".length()){
                     String sub = "";
                     try {
-                        String dirs[] = {"left", "right", "forward", "back"};
+                        String[] dirs = {"left", "right", "forward", "back", "up", "down"};
                         for (String dir : dirs) {
                             System.out.println(StringEditor.cutStr(msg));
                             if (StringEditor.cutStr(msg).startsWith(dir)) {
@@ -264,13 +264,10 @@ private final String WRONG = "Wrong command.";
         }
 
         if(getHero().currentLevel.combatMode){
-            System.out.println("123");
             for(Mob mob: getHero().currentLevel.enemies){
-                System.out.println("12345");
                 mob.act(heroes);
             }
         }else{
-            System.out.println("1234567");
             getHero().currentLevel.levelEvent(getHero());
         }
     }
@@ -278,16 +275,18 @@ private final String WRONG = "Wrong command.";
     public Hero getHero(){
         for(User user: players){
             if(user.equals(currentTurnUser)){
-                return heroes[players.indexOf(user)];
+                return heroes.get(players.indexOf(user));
             }
         }
-        System.out.println("Nope.");
         return null;
     }
 
     public Hero getHero(User user){
-        return heroes[players.indexOf(user)];
+        return heroes.get(players.indexOf(user));
+    }
 
+    public User getUser(Hero hero){
+        return players.get(heroes.indexOf(hero));
     }
 
     public void spend(float f){
@@ -316,8 +315,8 @@ private final String WRONG = "Wrong command.";
     public void nextTurn(int turns){
         System.out.println("NextTurn readed");
         System.out.println(turns);
-        enemyTurn();
         if(players.size() == 1){
+            enemyTurn();
             return;
         }
         User previousUser = currentTurnUser;
@@ -325,7 +324,7 @@ private final String WRONG = "Wrong command.";
         skipTurn();
 
         if(currentTurnUser.equals(players.get(players.size() - 1))){
-            //fight methode
+            enemyTurn();
             if(getHero(players.get(0)).skipTurn <= getHero().skipTurn){
                 currentTurnUser = players.get(0);
                 System.out.println("zzzzzzz");

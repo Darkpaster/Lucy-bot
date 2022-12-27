@@ -1,16 +1,24 @@
 package org.darkpaster.actor.mob;
 
 import org.darkpaster.Bot;
+import org.darkpaster.GameGUI;
 import org.darkpaster.actor.Actor;
 import org.darkpaster.actor.hero.Hero;
 import org.darkpaster.utils.Coordinates;
 import org.darkpaster.utils.Random;
+
+import java.util.ArrayList;
 
 public class Mob extends Actor {
     protected float rarity;
 
 
     protected int noticeRange;
+
+
+    public boolean isChasing = false;
+
+    public int dropExp;
 
     public float getRarity(){return rarity;}
     public Mob(){
@@ -23,18 +31,18 @@ public class Mob extends Actor {
             z = Bot.game.getHero().getZ();
         }
 
-    protected void checkDistance(Hero[] heroes){
+    protected void checkDistance(ArrayList<Hero> heroes){
         boolean z = false;
         for(Hero hero: heroes){
             if(noticeRange >= Coordinates.pointDistanceXY(hero, this)){
                 noticed = true;
-                z = true;
                 if(target == null){
                     target = hero;
                     Bot.sendA("**" + this.name + "** noticed you!");
                 }
 
             }
+
         }
         if(!z){
             if(noticed){
@@ -66,12 +74,12 @@ public class Mob extends Actor {
     }
 
     public void move() {
-        switch (Random.Int(3)){
+        switch (Random.Int(7)){
             case 0:
-                x++;
+                x += 2;
                 break;
             case 1:
-                x--;
+                x -= 2;
                 break;
             case 2:
                 y++;
@@ -80,37 +88,52 @@ public class Mob extends Actor {
                 y--;
         }
 
-        if(Bot.game.getHero().getVisibilityRange() >= Coordinates.pointDistanceXY(Bot.game.getHero(), this)){
-            Bot.send("**" + this.name + "** moved.");
+        if(x > GameGUI.world[9].length() - 2){
+            x -= 2;
+        }else if(x < 0){
+            x += 2;
+        }else if(y > GameGUI.world.length - 1){
+            y = GameGUI.world.length - 1;
+        }else if(y < 0){
+            y = 0;
         }
+
+        if(Coordinates.pointDistanceX(GameGUI.hero, this) <= 6 && Coordinates.pointDistanceY(GameGUI.hero, this) <= 3){
+            isChasing = true;
+            GameGUI.log.append(GameGUI.buildString(GameGUI.NOTICE, this.name));
+        }
+
+//        if(Bot.game.getHero().getVisibilityRange() >= Coordinates.pointDistanceXY(Bot.game.getHero(), this)){
+//            Bot.send("**" + this.name + "** moved.");
+//        }
     }
 
     public void chase(Hero hero) {
         if(hero.getX() > x){
-            x++;
+            x += 2;
         }else if(hero.getX() < x){
-            x--;
+            x -= 2;
         }else if(hero.getY() > y){
             y++;
         }else if(hero.getY() < y){
             y--;
         }
 
-        Bot.sendA("**" + this.name + "** is chasing you.");
+        //Bot.send(Bot.game.getUser(hero).getAsMention() + "**" + this.name + "** is chasing you.");
     }
 
 
-    public void act(Hero[] heroes){
-        checkDistance(heroes);
-        if(noticed){
-            if(canAttack(target)){
-                attack(target);
-            }else{
-                chase((Hero) target);
-            }
-        }else{
-            move();
-        }
+    public void act(ArrayList<Hero> heroes){
+//        checkDistance(heroes);
+//        if(noticed){
+//            if(canAttack(target)){
+//                attack(target);
+//            }else{
+//                chase((Hero) target);
+//            }
+//        }else{
+//            move();
+//        }
 
 
 
