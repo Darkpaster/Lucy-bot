@@ -1,0 +1,710 @@
+humanhu√BERSERK∫Гаос√Berserk.∫humanhu√LUCY!∫humanhu√LUCY∫Гаос√?∫humanhu√Test∫humanhu√Test y∫humanhu√test yes∫humanhu√testyes∫humanhu√test yes da∫humanhu√asdasd∫humanhu√asdasdasdasdas∫humanhu√test∫humanhu√we∫humanhu√123∫humanhu√2∫humanhu√33∫humanhu√333∫humanhu√3333∫humanhu√w∫humanhu√test∫humanhu√test yes∫humanhu√Test yes∫humanhu√testewt∫humanhu√twetwerewrewrewrwerew∫humanhu√werwe rewr we rwer werwerew!∫humanhu√qwq∫humanhu√21 3∫humanhu√less∫humanhu√wrong∫humanhu√We need freedom∫Гаос√True.∫humanhu√Lucy∫Гаос√What do you need?∫Гаос√Ok∫humanhu√Lucy∫Гаос√What do you need?∫humanhu√Lucy∫Гаос√What's the matter?∫humanhu√Lucy∫Гаос√How can i help?∫Гаос√Meow.∫Гаос√Meow.∫humanhu√--asdasd--∫humanhu√~~asdasd~~∫humanhu√**asdasd** *∫humanhu√*asdasd*∫humanhu√*set cat* - some command∫humanhu√_asdasdas_∫humanhu√__asdasdasdas__∫humanhu√**set: *number***∫humanhu√__set *number*__∫humanhu√Lucy∫Гаос√?∫Гаос√Ok.∫humanhu√lucy∫Гаос√?∫humanhu√lucy∫Гаос√What's the matter?∫humanhu√!help∫Carl-bot√∫Гаос√__!help__ - I'll send a list of all commands (except for commands for chatting).
+__!gameHelp__ - Idk this command yet.
+__!roll__ *max value* - I'll send a random number from 0 to written value.
+__!remind *hours.minutes*__ - I'll remind you when your entered time is up.∫humanhu√!roll 24∫Carl-bot√**Creature** rolls **22** (1-24)∫humanhu√!roll 44∫Carl-bot√**Creature** rolls **27** (1-44)∫humanhu√Lucy∫Гаос√?∫humanhu√Say hi to me∫humanhu√say hi to me∫humanhu√Lucy say hi to me∫humanhu√Lucy∫Гаос√?∫humanhu√Lucy say hello to me∫Гаос√Hello  me∫humanhu√Lucy say hi to asd asd asd a∫Гаос√Hello  asd asd asd a∫humanhu√Lucy hello∫humanhu√Lucy∫Гаос√What's the matter?∫humanhu√Lucy∫Гаос√What's the matter?∫humanhu√Lucy i like you∫Гаос√:heart:∫humanhu√Lucy he likes you∫Гаос√:heart:∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√hi∫humanhu√Lucy hi∫Гаос√Hi Creature.∫humanhu√Lucy you know hi∫Гаос√Hi Creature.∫humanhu√Lucy love you∫Гаос√:heart:∫humanhu√!roll∫Carl-bot√**Creature** rolls **94** (1-100)∫humanhu√Lucy?∫Гаос√Idk.∫humanhu√Lucy∫Гаос√?∫humanhu√!roll 50∫Carl-bot√**Creature** rolls **22** (1-50)∫humanhu√!roll 50∫Carl-bot√**Creature** rolls **16** (1-50)∫Гаос√Wrong command.∫humanhu√!roll∫Carl-bot√**Creature** rolls **46** (1-100)∫humanhu√!roll dsas∫Carl-bot√**Creature** rolls **79** (1-100)∫humanhu√!roll 50∫Carl-bot√**Creature** rolls **6** (1-50)∫Гаос√Wrong command.∫humanhu√!remind 0.20∫Carl-bot√Invalid time provided, try e.g. "tomorrow" or "3 days".∫Гаос√Wrong command.∫humanhu√!remind 1.2∫Carl-bot√Alright **Creature**, I'll remind you about something in 2 months and 16 days. ID: 49345296∫Гаос√Wrong command.∫humanhu√!roll∫Carl-bot√**Creature** rolls **50** (1-100)∫humanhu√!roll 123∫Carl-bot√**Creature** rolls **15** (1-123)∫Гаос√Wrong command.∫humanhu√!roll 2423∫Carl-bot√**Creature** rolls **2056** (1-2423)∫Гаос√455∫humanhu√!roll 23∫Carl-bot√**Creature** rolls **6** (1-23)∫Гаос√17∫humanhu√!remind0.2∫Гаос√Wrong command.∫humanhu√!roll 234∫Carl-bot√**Creature** rolls **160** (1-234)∫Гаос√48∫humanhu√!roll 234sa∫Carl-bot√**Creature** rolls **153** (1-234)∫Гаос√Wrong command.∫humanhu√!remind 0.1∫Carl-bot√Invalid time provided, try e.g. "tomorrow" or "3 days".∫Гаос√Wrong command.∫humanhu√!remind 0.1∫Carl-bot√Invalid time provided, try e.g. "tomorrow" or "3 days".∫Гаос√I'll remind you about something in 0hours and 1minutes.∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√!remind 0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√Creature#9901∫humanhu√Lucy∫Гаос√?∫Гаос√How can i help?∫humanhu√!roll 23434∫Гаос√11897∫humanhu√!roll 34∫Гаос√6∫humanhu√!remind0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√@Creature#9901∫humanhu√!roll5∫Гаос√1∫humanhu√!remind 0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√Creature#9901∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√!remind 0∫Гаос√Wrong command.∫humanhu√!remind 0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√@Creature#9901∫humanhu√<@1031232323733164082>∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√?∫humanhu√Lucy do you know?∫Гаос√Idk.∫humanhu√!remind0.1∫Гаос√I'll remind you about something in 0 hours and 1 minutes.∫humanhu√!roll 2344∫Гаос√902 (0 - 2344)∫humanhu√!roll 2343252523∫Гаос√Wrong command.∫humanhu√!remind 0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√<@580450213672779796>∫humanhu√!remind 0.0.0∫Гаос√Wrong command.∫humanhu√Remind 0.0∫humanhu√!remind 0.0∫Гаос√I'll remind you about something in 0 hours and 0 minutes.∫Гаос√<@580450213672779796>∫humanhu√!remind 0.1∫Гаос√I'll remind you about something in 0 hours and 1 minutes.∫Гаос√<@580450213672779796>∫humanhu√!remind 0.1∫Гаос√I'll remind you about something in 0 hours and 1 minutes.∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√!help∫Гаос√__!help__ - I'll send a list of all commands (except for commands for chatting).
+__!gameHelp__ - Idk this command yet.
+__!roll *max value*__ - I'll send a random number from 0 to written value.
+__!remind *hours.minutes*__ - I'll remind you when your entered time is up.∫humanhu√!gameMode∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Invalid password.∫humanhu√wettw∫humanhu√wtewr∫humanhu√213213∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√wer∫humanhu√2343∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√23242343∫humanhu√123123123∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫Гаос√Invalid password.∫Гаос√Invalid password.∫Гаос√Invalid password.∫Гаос√Invalid password.∫Гаос√Invalid password.∫Гаос√Invalid password.∫Гаос√Invalid password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√234∫Гаос√Invalid password.∫humanhu√sdfsd∫Гаос√Invalid password.∫humanhu√23424∫Гаос√Invalid password.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√ewq∫Гаос√Invalid password.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√**New game has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Enter special password for your game.∫humanhu√123∫humanhu√12413∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 2∫Гаос√0 (0 - 2)∫humanhu√!roll 2∫Гаос√1 (0 - 2)∫humanhu√!roll 2∫Гаос√0 (0 - 2)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√0 (0 - 1)∫humanhu√!roll 1∫Гаос√1 (0 - 1)∫humanhu√!roll 10∫Гаос√7 (0 - 10)∫humanhu√!roll 10∫Гаос√5 (0 - 10)∫humanhu√!roll 20∫Гаос√19 (0 - 20)∫humanhu√!roll 5∫Гаос√**1** (0 - 5)∫humanhu√!roll 3∫Гаос√**3** (0 - 3)∫humanhu√!roll 10∫Гаос√Creaturerolls **3** (0 - 10)∫humanhu√!roll 123∫Гаос√Creature rolls **59** (0 - 123)∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√test1∫Гаос√Message∫humanhu√test1∫humanhu√test1∫humanhu√test1∫Гаос√Message∫Гаос√Message∫Гаос√Message∫humanhu√test2∫humanhu√test3∫Гаос√Message∫humanhu√test4∫humanhu√test5∫humanhu√test1∫Гаос√Message∫humanhu√test2∫Гаос√MessageContent∫humanhu√test3∫Гаос√Message∫humanhu√test4∫Гаос√Message∫humanhu√test5∫Гаос√Message∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√123∫humanhu√!move right∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√asd∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now is not your turn.∫humanhu√asd∫Гаос√Now is not your turn.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√asd∫humanhu√!hero info∫Гаос√Now is not your turn.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!hero info∫Гаос√Now is not your turn.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√ads∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!hero info∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!hero info∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!hero info∫Гаос√x 0
+y 0
+Name hero
+Move speed 1.0∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√20177386931987998∫Гаос√Game loaded!∫Гаос√Error.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!hero info∫Гаос√x 0
+y 0
+Name hero
+Move speed 1.0∫humanhu√!move left∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!hero info∫Гаос√x -1
+y 0
+Name hero
+Move speed 1.0∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move forward∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!hero info∫Гаос√x 0
+y -1
+Name hero
+Move speed 1.0∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move left∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√79930419619625825∫Гаос√Game loaded!∫Гаос√Error.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√1∫Гаос√Enter number of players.∫humanhu√1∫Гаос√Player **Creature** registered!
+I need to register 1 players to start. Current: **1/1**∫Гаос√**New game (multiplayer mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√1.2∫humanhu√1∫Гаос√Enter number of players.∫humanhu√1.2∫Гаос√Invalid format. Enter a number.∫humanhu√1∫Гаос√Min number of players is 2. Enter number again.∫humanhu√6∫Гаос√Max number of players is 5. Enter number again.∫humanhu√2∫Гаос√Player **Creature** registered!
+I need to register 2 players to start. Current: **1/2**∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√1∫Гаос√Enter number of players.∫humanhu√234234∫Гаос√Max number of players is 5. Enter number again.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move∫humanhu√!move right asdas∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!move left 4∫humanhu√!move right 32∫humanhu√!move back 3∫humanhu√!move forward 5∫humanhu√!hero info∫Гаос√x 1
+y -4
+Name hero
+Move speed 1.0∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√03326471815903121∫Гаос√Game loaded!∫Гаос√Error.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√89656273880679320∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫humanhu√![lay∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!hero info∫Гаос√x 1
+y 0
+Name hero
+Move speed 1.0∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√503034106758487625∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√503034106758487625∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√503034106758487625∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√503034106758487625∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√!exit∫Гаос√Invalid password.∫humanhu√!exit∫Гаос√Invalid password.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√4639895383931310081∫Гаос√Game loaded!∫humanhu√!hero info∫humanhu√!move right∫humanhu√asdas∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!hero info∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√asd∫humanhu√asd∫humanhu√ehth∫humanhu√asdas∫humanhu√hgfhfghdgfh∫humanhu√sdf∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!asdasd∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!hero info∫Гаос√x 1
+y 0
+Name hero
+Move speed 1.0∫humanhu√!exit∫Гаос√Game was successfully saved.∫Гаос√Game mode disabled.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√567742811357498855∫humanhu√2∫Гаос√Enter special password for your game.∫humanhu√567742811357498855∫Гаос√Game loaded!∫humanhu√!test∫Гаос√Dungeon∫humanhu√!тест∫Гаос√уехухухуух)∫humanhu√!тест∫Гаос√уехухухуух)∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√You remember nothing about who you are and what are you doing in this place∫humanhu√!move right∫Гаос√You walked 1 meter.∫Гаос√Enemies have made their turn.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right 5∫humanhu√!move left 2∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!move right∫Гаос√You walked 1 meter.∫humanhu√!hero info∫Гаос√x 25
+y 0
+Name hero
+Move speed 1.0∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫Гаос√<@580450213672779796>
+Now your turn.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫Гаос√<@580450213672779796>
+Now your turn.∫humanhu√!move right 3∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫Гаос√<@580450213672779796>
+Now your turn.∫humanhu√!move right 3∫Гаос√Wrong command.∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫Гаос√<@580450213672779796>
+Now your turn.∫humanhu√!move right 3∫humanhu√!move right 5∫humanhu√!play∫Гаос√Game mode enabled.∫Гаос√**1** - Create new game.
+**2** - Load existing game.∫humanhu√1∫Гаос√Which game mode do you want to play?
+**1** - Online
+**2** - Offline∫humanhu√2∫Гаос√**New game (single mode) has been created!**
+I sent your password for this game. In future you'll be able to load this game with password.∫Гаос√Now you're in the **Unknown dungeon.**.
+Because of the darkness almost nothing can be seen.∫Гаос√You remember nothing about who you are and what are you doing in this place.∫Гаос√<@580450213672779796>
+Now your turn.∫humanhu√!move right 3∫Гаос√<@580450213672779796>
+You walked 3 meters.∫humanhu√!move right 20∫Гаос√Combat mode enabled.∫Гаос√<@580450213672779796>
+You hear someone's steps.∫Гаос√<@580450213672779796>
+You walked 13 meters and noticed **Giant rat**.∫Гаос√<@580450213672779796>
+You noticed **Giant rat**.∫humanhu√Lucy∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy bye∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√Lucy∫Гаос√What's the matter?∫humanhu√!remind 0.1.Тест∫Гаос√I'll remind you about Тест in 0 hours and 1 minutes.∫Гаос√<@580450213672779796> Тест∫humanhu√!remind 0.1∫Гаос√I'll remind you about something in 0 hours and 1 minutes.∫Гаос√<@580450213672779796> Your time is up.∫humanhu√/testGame∫humanhu√testGame∫humanhu√Lucy∫humanhu√/testGa∫humanhu√asd∫humanhu√Lucy∫Гаос√What's the matter?∫humanhu√/game∫humanhu√/game∫humanhu√тест∫Гаос√Click the button to move∫Гаос√You moved∫Гаос√You moved∫Гаос√You moved∫Гаос√You moved∫Гаос√__                         __∫Гаос√__@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@__∫Гаос√[_, _,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  , @,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  ,  , _, _]∫Гаос√[[, [, ,,  , _, ,,  , ,, ,,  ,  , ,,  , _, ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  ,  , @,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  ,  , ,,  , ,, ,,  ,  , ,,  , _, ,,  , ,, ,,  ,  , ,,  , _, ,,  , ], ]]∫Гаос√[[, ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., @,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ,,  , ., ]]∫Гаос√[[ [   .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .   . @ .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .       .   ] ]]∫Гаос√[[[[[[[[[[[[........................@..................]]]]]]]]]]]]∫Гаос√[.....................@.....................]∫Гаос√......@....................................∫Гаос√.........................................@...........................................∫Гаос√......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+..............................................@.......................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................
+......................................................................................∫Гаос√@∫Гаос√```                                                                                   
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                         @                                            
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                   ```∫Гаос√```                                                                                   
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                               @                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                   ```∫Гаос√```                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                       @                                              
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      ```∫Гаос√__                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                           @                                          
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      __∫Гаос√**                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                             @                        
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      **∫Гаос√**                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                               @                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      **∫Гаос√**                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                               @                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      **∫Гаос√**                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                   @                                                  
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      **∫Гаос√**                                                                                      
+                                                                                      
+                                                                                  @                                                                                          
+                                                                                      
+                                                                                      
+                                                                                      
+                                                           e                          
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      **∫humanhu√!remind 0.1.Пора на турник∫Гаос√I'll remind you about Пора на турник in 0 hours and 1 minutes.∫Гаос√<@580450213672779796> Пора на турник∫humanhu√∫humanhu√/game∫humanhu√/game∫humanhu√Lucy∫Гаос√What's the matter?∫Гаос√* |------------------------------------------------------------------------------|
+|                                                                             |
+|           e                                                                 |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             | |                                                                             |
+|                                                                             |
+|                                                                             |
+|                                           @                                 |
+|__________________________ ___ ___ ___ ______________________________________|**∫humanhu√213∫Гаос√**|-----------------------------------------------------|
+|                                                                             |
+|                                                                             |
+|          e                                                                  |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                             @                               |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|______________________________________________________|**∫humanhu√!test game∫Гаос√[[**                                ], [                                ], [                               t], [                               t], [                                ], [                                **]]∫humanhu√!test game∫Гаос√[**                                ]∫Гаос√[                                ]∫Гаос√[                               t]∫Гаос√[                               t]∫Гаос√[                                ]∫Гаос√[                                **]∫humanhu√Лллллолллллооолоолллллл∫humanhu√.пф∫humanhu√бля∫humanhu√123∫Гаос√```           ты (Всего ходов - 7):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```                             
+ ,                           
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,┤,,,,,,,,,,@,┤,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,┤,,,,,,,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 13):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,,,,,,,,,┤,,,,,,,,,,,,,,,,,,
+,,,,,,,,w,w,,,,,,,,,,,,,,,,,,
+,,,,,,w,w,w,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,@,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,┤,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,┤,,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 34):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,,       ,,,,,,,,,,,,,,,,,,,
+,,,      ,,,,┤,,,,,,,,,,,,┤,,
+,,,      ,,,,,,,,,,,,,,,,,,,,
+,,,      ,,,,,@,,,,,,,,,,,,,,
+,,,      ,,,┤,,,,,,,,,,,,,,,,
+,,┤      ,,,,,,,,,,,,,,,,,,,,
+,,,      ,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 40):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,,┤,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,┤,,,,,,,,,
+,,,,,,,,,,,,,,,,,w,,,,,,,,,,,
+,,,,,,,,,,,,┤,@,,,,,,,,,,,,,,
+                         ,,,,
+                             
+,,,,,,,,,,,,,,,,,,┤,         
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 14):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+``` ,,,┤,,,,,,,,,,,,┤,,,,,,,,,,┤
+              ,,,┤,,,,,,,,,,,
+                             
+┤,,,       ,  @              
+,,,       ,,,,w,,,,,,,,,,,,,,
+,,,      ,,,,┤,,,,,,,,,,,,┤,,
+,,,      ,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 32):
+Уровень: 1(0/10)
+Здоровье: 13/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,,,,,,,,,,,,,┤,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+         ,,,,,,,,,,,,,,,,,,,,
+              @ w  ,,,┤,,,,,,
+w,┤,                         
+,,,,,,,,,,,,,,,,,,           
+,,,,,,,,,,,,,,,,,,┤,,,       
+```
+```Log:
+Волк атаковал ты и нанёс 2. Осталось: 15
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 49):
+Уровень: 1(0/10)
+Здоровье: 9/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,,,,,,,,,,,,,┤,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,┤,,,,,@w,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,┤,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Волк атаковал тебя и нанёс 1. Осталось: 11
+Слишком далеко.∫Гаос√Ты помер.∫Гаос√```           ты (Всего ходов - 0):
+Уровень: 1(0/10)
+Здоровье: 20/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,       ,                   
+,       ,,,,,,,,,,,,,,,,,,,,,
+,      ,,,,┤,,,,,,,,,,,,┤,,,,
+,      ,,,,,,,@,,,,,,,,,,,,,,
+,      ,,,,,,,,,,,,,,,,,,,,,,
+,      ,,,┤,,,,,,,,,,w,,,,,,,
+┤      ,,,,,,,,,,,,,,,,,,,,,,
+```
+```Log:∫Гаос√```           ты (Всего ходов - 39):
+Уровень: 1(4/10)
+Здоровье: 8/20
+Урон: 2.0 - 4.0
+Защита: 0
+Цель: Волк```
+
+```,,,,,┤w,,,,,,,,,,,,,,,,,,,┤,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,┤,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,@,,,,,,,,,,,,,,
+,,,,,,┤,,,,,,,,,,,,,,,,,,┤,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,┤,,,,,┤,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫Гаос√```           ты (Всего ходов - 10):
+Уровень: 1(2/10)
+Здоровье: 10/20
+Урон: 2.0 - 4.0
+Защита: 0```
+
+```,,       ,                   
+,       ,,,,,,,,,,,,,,,,,,,,,
+,      ,,,,┤,,,,,,,,,,,,┤,,,,
+,      ,,,,,,,@,,,,,,,,,,,,,,
+,      ,,,,,,,,,,,,,,,,,,,,,,
+,      ,,,┤,,,,,,,,,,,,,,,,,,
+┤      ,,,,,,,,,,,,,,,,,,,,,,
+```
+```Log:
+Ты прошёл пару метров.
+```∫humanhu√Люси∫humanhu√!значение∫humanhu√Lucy∫Гаос√How can i help?∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√люси дарова∫humanhu√люси  дарова∫humanhu√люси  дарова∫humanhu√дарова    люси∫humanhu√люси дарова∫humanhu√люси привет∫humanhu√люси привет∫Гаос√Хелооуу∫humanhu√дарова люси∫Гаос√Хелооуу∫humanhu√люська дарова∫humanhu√люси ку∫humanhu√люси привет∫humanhu√ллююссии привет∫humanhu√люси∫humanhu√люси ку∫humanhu√ллююссии дарова∫humanhu√люси эй∫humanhu√люси прив∫humanhu√люси прив∫humanhu√люси дарова∫Гаос√дарова∫humanhu√ку люська∫Гаос√ку∫humanhu√люси люси ку∫Гаос√ку∫humanhu√дарова люська ку∫humanhu√люси кууууу∫Гаос√кууууу∫humanhu√люси кккку∫humanhu√люси хай!∫humanhu√люська дарооууу∫Гаос√дрооууу∫humanhu√люси хай∫humanhu√люси хай?!∫humanhu√люси хай?∫humanhu√люси∫humanhu√люси хай?∫Гаос√хай?∫humanhu√люси йах∫Гаос√йах∫humanhu√люси куку∫Гаос√куку∫humanhu√люси ук∫Гаос√ук∫humanhu√люси кууу∫Гаос√кууу∫humanhu√люськааа куку∫Гаос√куку∫humanhu√люськааа кууукууу∫humanhu√люси кууу∫humanhu√люси куку∫humanhu√люси ку∫Гаос√ку∫humanhu√люси кууу∫Гаос√кууу∫humanhu√люси дарооовааа∫Гаос√дарооовааа∫humanhu√люси ук∫humanhu√люси хай!∫humanhu√люси хай?∫humanhu√люси хай?!∫humanhu√люси хай∫humanhu√люси хай∫humanhu√хай?∫humanhu√люси хай?∫humanhu√люси хай!∫Гаос√хай!∫humanhu√люси хай)∫Гаос√хай)∫humanhu√люси хай∫humanhu√люси хай!∫humanhu√люси хай)∫humanhu√люси хай∫humanhu√люси хай)∫humanhu√люси хай!∫humanhu√люси хай∫humanhu√люси хай)∫humanhu√люси хай∫humanhu√люси хай)∫humanhu√люси хай∫humanhu√люси хай)∫Гаос√хай)∫humanhu√люси хай!∫Гаос√хай!∫humanhu√люси хай∫Гаос√хай∫humanhu√люси хай!∫Гаос√хай!∫humanhu√люси хай)∫Гаос√хай)∫humanhu√люси хай))∫Гаос√хай))∫humanhu√люси хай!!!∫Гаос√хай!!!∫humanhu√люси хаайййй!!!∫Гаос√хаайййй!!!∫humanhu√люсечка∫humanhu√люсечка прив∫Гаос√прив∫humanhu√люсечька ку∫Гаос√ку∫humanhu√люська привееет∫humanhu√люська привет∫humanhu√люська привеееттт∫humanhu√люси привееет∫humanhu√люси привеееттт∫humanhu√люси привет∫humanhu√люси приве∫humanhu√люси привее∫humanhu√люси привет∫humanhu√люси прив∫Гаос√прив∫humanhu√люси при∫humanhu√люси привееет∫Гаос√привееет∫humanhu√приветтт∫humanhu√люси привеетт∫Гаос√привеетт∫humanhu√люси прив∫Гаос√прив∫humanhu√люси∫humanhu√люська∫humanhu√люська∫humanhu√люська аа∫humanhu√люси∫humanhu√люси ку∫humanhu√люси ку∫humanhu√люси∫Гаос√што...∫humanhu√люси∫Гаос√каво∫humanhu√люси∫Гаос√каво∫humanhu√Люси!∫Гаос√каво∫humanhu√а∫humanhu√ну ты и люси∫Гаос√што...∫humanhu√люси ты чо афигела?∫Гаос√каво∫humanhu√!каво∫humanhu√!kek∫humanhu√люси ку∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение∫humanhu√!значение орех∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫humanhu√!значение мандарин∫Гаос√- -мандарин -  - - -  -  -  мандарин-   - -  -∫humanhu√!мандарин∫humanhu√!значение мандарин∫Гаос√- -мандарин -  - - -  -  - - мандарин- - -     - -     -Мандарин - Википедия Мандарин Мандарин лат — небольшое вечнозелёное дерево вид рода Цитруссемейства Рутовыеэто же слово обозначает плод-Мандарин фрукт -Мандарин чиновник Мандарины фильм -Мандарин чиновник - Википедия Мандаринчиновник Мандарин порт— министр чиновник от санскр — мантрин — советник — данное португальцами название чиновников в имперском Китае позднее также в -Мандарины польза и вред для организма человека -ЗОЖСтатьи Мандарин∫humanhu√!значение аниме∫Гаос√- -аниме -  - - -  - - - - - - анимеСмотреть аниме на Все серии и сезоны множества аниме и мультфильмов Лучшие аниме посмотреть которые можно у насПуть асасезонасерий -Смотреть Городской охотник - Аниме смотреть онлайн База анимеАнимедия Онлайн - смотреть только лучшее аниме онлайн бесплатно в нашей Базе аниме новинок  -Аниме — Википедия -Бесплатное аниме смотреть онлайн подборку Список лучшего контента- Лучших Аниме сериалов которые должен посмотреть каждый - аниме которые вам посоветует люб∫humanhu√!значение аниме∫humanhu√!значение аниме∫Гаос√- -аниме это -  - - -  - -  - аниме этоАниме - Википедия Аниме Анимеср нескл япинфот англ— анимация — японская мультипликация В отличие от мультфильмов другихИстория аниме Термины и понятия Сёдзё аниме Жанры аниме и манги - -  Термины и понятия аниме и манги - Википедия Терминыипонятия Статья содержит список терминов связанных с субкультурой аниме и манги -Что такое аниме - Однако анимеэто не просто анимация придуманная в Японии это целый мир который включает в себя огромное количество жанров∫humanhu√!значение аниме∫Гаос√- -Аниме — Википедия-январьфевральмартапрельмайиюньиюльавгустсентябрьоктябрьноябрьдекабрьАнимеАнимеВикипедияне указан языкВикипедиязаменить -архивСтраницы использующие волшебные ссылки ВикипедияСтатьи с разделами без ссылок на источники с маягодаВикипедияСтатьи без источников страна ЯпонияВикипедияСтатьи без источников тип жанр киноВикипедияГлобализироватьВикипедияСтатьи с шаблонами недостатков по алфавитуВикипедияНет источников с марта ВикипедияСтатьи с утверждениями без источников болееднейВ∫humanhu√!значение аниме∫Гаос√икипедияСсылка на Викицитатник непосредственно в статьеСтатьи со ссылками на ВикискладСтатьи со ссылками на порталАудиостатьиАнимеИзобретения ЯпонииАнимерусский--- -- - ---Аниме — Википедия -  -Википедия  - - -   - - - - -Аниме -Аниме - - - -   - -   -    - 	 	 - 	 -	  - Эта статья озвучена Кликните чтобы просмотреть список других аудиостатей Эта статья озвучена Кликните чтобы просмотреть список других аудиостатей -  		  -Аниме	-		Материал из Википедии — свободной энциклопедии		Правки этой стран∫humanhu√!значение аниме∫Гаос√ицы требуют проверки -  - - -  -  Это отпатрулированная версия страницы -  - - -  -   показатьскрыть подробности   - - -  -  -Это ВикипедияПатрулированиестабильная версияотпатрулированнаяноября 		 				 		  -Перейти к навигации		  Перейти к поиску		    У этого термина существуют и другие значения см - Аниме значенияАниме значения - -  -Увеличить - ВикипедияВикипе-танВикипе-тан— неофициальный - Маскотмаскот Википедии выполненный в аниме-стиле -  - Это аудиостатья Кликните чтобы прослушать Это аудиостатья Кликните чтобы прослушать - Прослушать статью- -Аудио-версиястатьиАниме - - - - - -  -Оригинальный -файлКбс -Источник- - - ВикипедияСписок аудиостатейАудиозапись создана на основе версии статьи отиюнягодаАнимеМеждународный фонетический алфавит Средний родср - Несклоняемые слованескл Японский языкяп  - Файл-инфМеждународный фонетический алфавит от Английский языкангл- — анимация — Японияяпонская Мультипликациямультипликация  В отличие от Мультфильммультфильмов других стран предназначенных∫humanhu√!значение аниме∫Гаос√в основном для просмотра Ребёнокдетьми большая часть выпускаемого аниме рассчитана на - Подростокподростковую и Взрослыйвзрослую Аудиторияаудитории и во многом за счёт этого имеет высокую популярность в мире  Аниме отличается характерной манерой отрисовки персонажей и фонов  Издаётся в форме Телесериалтелевизионных сериалов а также Фильмфильмов распространяемых на видеоносителях или предназначенных для кинопоказа  Сюжеты могут описывать множество персонажей отличаться разнообразием мест и эпох жанров и стилей Источниками для сюжета аниме-сериалов чаще всего являются Мангаманга японские Комикскомиксы  Ранобэранобэ лайт-новел или компьютерные игры как правило в жанре - Визуальный романвизуальный роман  При экранизации обычно сохраняется графический стиль и другие особенности оригинала Реже используются другие источники например произведения классической литературы Есть также аниме имеющие полностью оригинальный сюжет в этом случае уже само аниме может послужить источником для создания по нему книжных и манга-версий Значение термина аниме может варьироваться в зависимости от контекста  В западных странах аниме является объектом исследования учёных-культурологов социологов и антропологов— Эри Идзавы Скотта Маклауда Сьюзан Напьер Шерон Кинселлы и других -Содержание  - - Этимология Этимология - - История История - - Особенности Особенности - - Рисунок Рисунок - - Сюжет Сюжет - - Музыкаизвук Музыка и звук - - Производствоаниме Производство аниме - - Жанрыаниме Жанры аниме - - Форматыаниме Форматы аниме - - Телесериал Телесериал - - - - Фильм Фильм - - - - Структурасерий Структура серий - - Начальнаязаставка Начальная заставка - - Финальныйролик Финальный ролик - - Заставка Заставка - - Распространение Распространение - - АнимевРоссии Аниме в России - - Критикааниме Критика аниме - - Смтакже См также - - Примечания Примечания - - Литература Литература - - Ссылки Ссылки- ЭтимологияЭтимологияСлово аниме происходит от английского словаЯпонский языкяп анимэ сён Русский языкрус∫humanhu√!значение аниме∫Гаос√200∫humanhu√!значение аниме∫Гаос√— анимация — Японияяпонская Мультипликациямультипликация  В отличие от Мультфильммультфильмов других стран предназначенных в основном для просмотра Ребёнокдетьми большая часть выпускаемого аниме рассчитана на - Подростокподростковую и Взрослыйвзрослую Аудиторияаудитории и во многом за счёт этого име∫humanhu√!значение яблоко∫Гаос√— Яблоня Сиверсаяблоня Сиверса -брэбрэ- На сегодняшний день существует множество Сортсортов этого Биологический видвида яблони произрастающих в различных климатических условиях По времени созревания отличают летние осенние и зимние сорта более поздние сорта отличаются хорошей стойкостью-Содержание  - - Этимология Этимология - - Ботаническоеописаниерастения Ботаническое описание растения - - Историяразведения История разведения - - Питательнаяценность Питательная ценность - - Яблокивкулинарии Ябл∫humanhu√!значение майнкрафт∫Гаос√— -    Для всех возрастов - —- -  Для всех старшелет - Возрастная классификация информационной продукции в России- -  Для детей старшелет - Разработка компьютерных игрСоздателиГеймдизайнерГеймдизайнеры  - -Перссон МаркусМаркус Перссон  Бергенстен ЙенсЙенс Бергенстен    Музыка в компьютерных играхКомпозиторы  -  Розенфельд ДаниэльДаниэль Розенфельд   - Технические данныеПлатформы  - -- -полный список - Игровой движокДвижок  - -Режимы игры  - -Однопользовательская играоднопользовательский Многопол∫humanhu√!значение яблоко∫Гаос√—см в диаметре Происходит из Центральной АзияАзии где до сих пор произрастает дикорастущий предок яблони домашней— Яблоня Сиверсаяблоня Сиверса -брэбрэ- На сегодняшний день существует множество Сортсортов этого Биологический видвида яблони произрастающих в различных климатических условиях По времени созревания отличают летние осенние и зимние сорта более поздние сорта отличаются хорошей стойкостью-Содержание  - - Этимология Этимология - - Ботаническоеописаниерастения Ботаническое описание растения - - Историяразведения История разведения - - Питательнаяценность Питательная ценность - - Яблокивкулинарии Ябл∫humanhu√!значение машина∫Гаос√Не найдено.∫humanhu√!значение автомобиль∫Гаос√Не найдено.∫humanhu√!значение устройство∫Гаос√Не найдено.∫humanhu√!значение болото∫Гаос√Не найдено.∫humanhu√!значение природа∫Гаос√Не найдено.∫humanhu√!значение яблоко∫Гаос√Не найдено.∫humanhu√!значение лол∫humanhu√!значение лол∫humanhu√!значение анлрей∫humanhu√!значение андрей∫humanhu√!значение андрей∫humanhu√!значение андрей∫Гаос√— мужественный храбрый — Мужчинамужское Личное имяимя Грециягреческого происхожденияПроизводные формы Андрюха Андрюша Андрюня Андрейка Андря Отчества Андреевич Андреевна разговорные формы отчеств Андреич Андревна Православные Имениныименины даты даны по Григорианский календарьгригорианскому календарю   В Исландии имя Андрей не разрешается давать детям Специальный национальный реестр имён отклонил его поскольку оно не соответствует канонам и правилам написания исландского языка При этом в данном реестре есть пять вариантов имени Андрей используемых представителями разных народов Андреан Андреас Андэ Андрес и собственно исландское Андри От имени Андрей образована одна из распространённых русских фамилий— - АндреевАндреев∫humanhu√!значение андрей∫Гаос√— мужественный храбрый   —МужчинамужскоеЛичное имяимяГрециягреческого происхожденияПроизводные формы Андрюха Андрюша Андрюня Андрейка Андря   Отчества Андреевич Андреевна разговорные формы отчеств Андреич Андревна   ПравославныеИмениныименины даты даны поГригорианский календарьгригорианскому календарю -  -    В Исландии имя Андрей не разрешается давать детям Специальный национальный реестр имён отклонил его поскольку оно не соответствует канонам и правилам написания исландского языка При этом в данном реестре есть пять вариантов имени Андрей используемых представителями разных народов Андреан Андреас Андэ Андрес и собственно исландское Андри -  -От имени Андрей образована одна из распространённых русских фамилий—- АндреевАндреев -  -∫humanhu√!значение андрей∫Гаос√Андре́й (от др.-греч. Ἀνδρέας — «мужественный, храбрый»[1]) — мужское имя греческого происхождения.∫humanhu√!значение яблоко∫Гаос√Деревья с развесистой шаровидной или яйцевидной кроной высотой 2—10 м и выше. Корневая система стержневая, с боковыми ответвлениями[1].∫humanhu√!значение яблоко∫Гаос√Деревья с развесистой шаровидной или яйцевидной кроной высотой 2—10 м и выше. Корневая система стержневая, с боковыми ответвлениями[1].∫humanhu√!значение яблоко∫humanhu√!значение яблоко∫Гаос√Я́блоко — сочный плод яблони, который употребляется в пищу в свежем и запеченном виде, служит сырьём в кулинарии и для приготовления напитков. Наибольшее распространение получила яблоня домашняя, реже выращивают яблоню сливолистную. Размер красных, зелёных или жёлтых шаровидных плодов 5—13 см в диаметре. Происходит из Центральной Азии, где до сих пор произрастает дикорастущий предок яблони домашней — яблоня Сиверса[1]. На сегодняшний день существует множество сортов этого вида яблони, произрастающих в различных климатических условиях. По времени созревания отличают летние, осенние и зимние сорта, более поздние сорта отличаются хорошей стойкостью.Русское слово яблоко возникло в результате прибавления протетического начального «j» к праслав. *ablъko; последнее образовано с помощью суффикса -ъk — от позднепраиндоевропейской основы *āblu — «яблоко» (к той же основе восходят лит. obuolỹs, латыш. ābols, англ. apple, нем. Apfel, галльск. avallo, др.‑ирл. aball[2][3]). Данная основа представляет собой регионализм северо-западных индоевропейских языков и восходит, в свою очередь, к общеиндоевропейской основе (реконструируемой как *(a)masl-[4] или как *ŝamlu-[3]). С суффиксом -onь- та же основа дала яблонь (позднейшее яблоня)[5].∫humanhu√!значение андрей∫Гаос√баск. Anderудм. Ондӥ, Ондриянхант. ВәнтӑрАндре́й (от др.-греч. Ἀνδρέας — «мужественный, храбрый»[1]) — мужское имя греческого происхождения.Производные формы: Андрюха, Андрюша, Андрюня, Андрейка, Андря[1].Отчества: Андреевич, Андреевна; разговорные формы отчеств: Андреич, Андревна[1].Православные именины (даты даны по григорианскому календарю)[2][1]:В Исландии имя Андрей не разрешается давать детям. Специальный национальный реестр имён отклонил его, поскольку оно не соответствует канонам и правилам написания исландского языка. При этом в данном реестре есть пять вариантов имени Андрей, используемых представителями разных народов: Андреан, Андреас, Андэ, Андрес и собственно исландское Андри[3].От имени Андрей образована одна из распространённых русских фамилий — Андреев[4].∫humanhu√!значение андрей∫Гаос√баск. Ander
+удм. Ондӥ, Ондриян
+хант. Вәнтӑр
+Андре́й (от др.-греч. Ἀνδρέας — «мужественный, храбрый»[1]) — мужское имя греческого происхождения.
+Производные формы: Андрюха, Андрюша, Андрюня, Андрейка, Андря[1].
+Отчества: Андреевич, Андреевна; разговорные формы отчеств: Андреич, Андревна[1].
+Православные именины (даты даны по григорианскому календарю)[2][1]:
+В Исландии имя Андрей не разрешается давать детям. Специальный национальный реестр имён отклонил его, поскольку оно не соответствует канонам и правилам написания исландского языка. При этом в данном реестре есть пять вариантов имени Андрей, используемых представителями разных народов: Андреан, Андреас, Андэ, Андрес и собственно исландское Андри[3].
+
+От имени Андрей образована одна из распространённых русских фамилий — Андреев[4].∫humanhu√люси∫Гаос√а?∫humanhu√!значение маинкрафт∫Гаос√Не найдено.∫humanhu√!значение minecraft∫Гаос√18 ноября 2011[~ 4]
+Windows, macOS, Linux
+Minecraft (от англ. mine — «шахта; добывать» + craft — «ремесло; создавать») — компьютерная инди-игра в жанре песочницы, созданная шведским программистом Маркусом Перссоном и выпущенная его студией Mojang AB. В 2009 году Перссон опубликовал начальную версию игры; в конце 2011 года была выпущена стабильная версия для компьютеров Windows, Linux и macOS с распространением через официальный сайт. В последующие годы Minecraft была портирована на мобильные устройства под управлением Android, iOS и Windows Phone; на игровые приставки PlayStation 3, PlayStation 4, PlayStation Vita, Xbox 360, Xbox One, New Nintendo 3DS, Nintendo Switch и Wii U; и другие платформы. В 2014 году корпорация Microsoft приобрела права на Minecraft вместе со студией Mojang AB за 2,5 миллиарда долларов. В 2017 году была выпущена мультиплатформенная версия игры, объединившая различные версии для разных устройств [⇨].
+Перссон написал Minecraft на языке программирования Java с использованием библиотеки графического вывода LWJGL, черпая идеи из таких игр, как Dwarf Fortress, Dungeon Keeper и Infiniminer (англ.) [⇨]. Minecraft даёт в распоряжение игрока процедурно генерируемый и изменяемый трёхмерный мир, полностью состоящий из кубов — его можно свободно перестраивать, создавая из этих кубов сложные сооружения — эта особенность делает игру схожей с различными конструкторами, такими как Lego. Minecraft не ставит перед игроком каких-либо конкретных целей, но предлагает ему свободу действий: например, игрок может исследовать мир, добывать полезные ископаемые, сражаться с противниками и многое другое [⇨]. Игра включает в себя дополнительные режимы, например, «выживание», где игроку нужно самому добывать ресурсы, и «творчество», где у игрока эти ресурсы есть в неограниченном количестве [⇨]. Механика «редстоуна» (англ. Redstone) позволяет создавать в Minecraft сложные логические схемы — тем самым игра может служить виртуальным конструктором для программистов и инжене∫humanhu√!значение risk of rain∫Гаос√Не найдено.∫humanhu√!значение riskofrain∫Гаос√Не найдено.∫humanhu√!значение ror∫Гаос√Не найдено.∫humanhu√!значение груша∫Гаос√Гру́ша (лат. Pýrus) — род плодовых и декоративных деревьев и кустарников семейства Розовые (Rosaceae).
+Слово «груша» в русских письменных источниках встречается с XII века в форме хруша[3]. В XVII веке вместо «груша» употреблялось слово «дуля», заимствованное из польского языка (польск. dula)[4].
+Деревья различного размера, порой крупные кустарники, иногда снабженные колючками. Со стержневым слабоветвящимся корнем, глубоко проникающим в почву[5].
+Форма кроны свободно растущего дерева — пирамидальная или округлая, склонна к загущению. Годовой прирост составляет 30—40 см. При благоприятных условиях груша достигает крупных размеров — до 5—25 метров в высоту и 5 метров в диаметре кроны.
+Листья, как правило, опадающие. Листорасположение спиральное в 5 рядов. Лист широкояйцевидной формы, 2,5—10 см длиной, короткозаострённый; цвет — тёмно-зелёный, блестящий, нижняя сторона листа голубовато-зелёная, осенью золотисто-оранжевая.
+Почки у груши, как и у других деревьев семейства, двух типов: вегетативные и генеративные. Вегетативные почки мельче и острее, генеративные — крупнее и тупее. Внешние различия между двумя типами почек усиливаются от времени образования этих почек к выходу из них побегов.∫humanhu√!значение Груша∫Гаос√Гру́ша (лат. Pýrus) — род плодовых и декоративных деревьев и кустарников семейства Розовые (Rosaceae).
+Слово «груша» в русских письменных источниках встречается с XII века в форме хруша[3]. В XVII веке вместо «груша» употреблялось слово «дуля», заимствованное из польского языка (польск. dula)[4].
+Деревья различного размера, порой крупные кустарники, иногда снабженные колючками. Со стержневым слабоветвящимся корнем, глубоко проникающим в почву[5].
+Форма кроны свободно растущего дерева — пирамидальная или округлая, склонна к загущению. Годовой прирост составляет 30—40 см. При благоприятных условиях груша достигает крупных размеров — до 5—25 метров в высоту и 5 метров в диаметре кроны.
+Листья, как правило, опадающие. Листорасположение спиральное в 5 рядов. Лист широкояйцевидной формы, 2,5—10 см длиной, короткозаострённый; цвет — тёмно-зелёный, блестящий, нижняя сторона листа голубовато-зелёная, осенью золотисто-оранжевая.
+Почки у груши, как и у других деревьев семейства, двух типов: вегетативные и генеративные. Вегетативные почки мельче и острее, генеративные — крупнее и тупее. Внешние различия между двумя типами почек усиливаются от времени образования этих почек к выходу из них побегов.∫humanhu√!значение risk_of_rain∫Гаос√Не найдено.∫humanhu√!значение  Risk_of_Rain∫Гаос√Не найдено.∫humanhu√!значение валентина∫Гаос√норв. Valentina
+словацк. Valentína
+Валенти́на — женское имя (от лат. valeo) — «сильная», «здоровая»; производное от мужского имени Валентин[2].
+Валентинка, Валя, Валёна, Валюня, Валюся, Валюха, Валюша, Вака, Тина.[1]
+Православные:
+Католические:∫humanhu√!значение сила∫Гаос√Си́ла — физическая векторная величина, являющаяся мерой воздействия на данное тело со стороны других тел или полей. Приложение силы обусловливает изменение скорости тела или появление деформаций и механических напряжений. Деформация может возникать как в самом теле, так и в фиксирующих его объектах — например, пружинах.
+Воздействие других тел на тело всегда осуществляется посредством полей, создаваемых телами и воспринимаемых рассматриваемым телом. Различные взаимодействия сводятся к четырём фундаментальным; согласно Стандартной модели физики элементарных частиц, эти фундаментальные взаимодействия (слабое, электромагнитное, сильное и, возможно, гравитационное) реализуются путём обмена калибровочными бозонами[1].
+Для обозначения силы обычно используется символ F — от лат. fortis (сильный).
+Общепринятое определение силы отсутствует, в современных учебниках физики сила рассматривается как причина ускорения[2]. Важнейший физический закон, в который входит сила, — второй закон Ньютона. Он гласит, что в инерциальных системах отсчёта ускорение материальной точки по направлению совпадает с равнодействующей силой, т.е. суммой сил, приложенных к телу, а по модулю прямо пропорционально модулю равнодействующей и обратно пропорционально массе материальной точки.∫humanhu√!значение Егор∫Гаос√Его́р — русское мужское имя; является фонетическим вариантом имени Георгий, возникшим из-за невозможности произношения в древнерусской речи начального мягкого [г][2][3].
+Имена Юрий и Георгий образовались в русском языке из одного и того же греческого имени Георгиос. У греков это имя было эпитетом Зевса и означало земледелец. По преданию, Зевс покровительствовал земледелию и земледельцам. В русском языке это имя, как заимствованное, появилось в X веке. Но по законам древнерусского языка в то время невозможно было произнести в начале слова мягкое [г] перед [е]. Имя превратилось в Еорий и затем — в Юрий. Повторное заимствование этого имени произошло в XVII веке при исправлении церковных книг. Оно опять было записано в форме Георгий, но опять фонетические законы русского языка, несколько изменившиеся к тому времени, не допустили такого произношения в русском языке. Имя изменилось на Его́ргий, Его́рий, Его́р[3]. От этого имени произошла фамилия Егоров.∫humanhu√!значение саша∫Гаос√Са́ша — имя собственное. В русском языке чаще всего употребляется в значении краткой формы имён Александр и Александра. Некоторые языки заимствовали эту форму имени из русского языка в качестве официального личного имени (то есть в случае этих заимствований Саша является самостоятельным официальным именем и не ассоциируется с именем Александр или Александра).∫humanhu√!значение александр∫Гаос√азерб. İskəndər, İsgəndər алб. Aleksandri, Aleksandër башк. Искандер босн. , серб. , хорв. Александар, Aleksandar вепс. Šan'ka, Ol'šoi груз. ალექსანდრე ирл. Alastar, Alsander каз. Ескендір кирг. Искендер коми Öльöксан корс. Lisandru латыш. Aleksandrs, Sandris лит. Aleksandras мар. Элыксан мокш. Лесо, Шурмай порт. Alexandre сиц. Alissandru тадж. Искандар тур. İskender хант. Сандра хинди Sikandar удм. Сандыр узб. Искандар эст. Aleksander, Aleksandr
+Алекса́ндр (др.-греч. ἀλέξω «защищать», ἀνήρ ( р.п. ἀνδρός) «мужчина») — мужское личное имя греческого происхождения[1][3]. Является одним из популярных имён в русском ономастиконе, имеет устойчивую популярность[4][5]. Женская форма имени — Алекса́ндра.
+Наряду с христианскими месяцесловами, имя включено и в свод еврейских имён как дань благородству и милосердию Александра Македонского, проявленному при завоевании им Святой Земли[6]. В мусульманских странах распространено имя Искандер, происходящее от имени Александра Македонского.
+На Русь принесено вместе с христианством из Византии. По утверждению В. А. Никонова, особенно популярным имя стало после побед Александра Невского над немецкими рыцарями[4].∫humanhu√!значение сергей∫Гаос√Серге́й — мужское русское личное имя, восходит к лат. Sergius, римскому родовому имени (см. Сергии)[2], которое, в свою очередь, имеет этрусские корни. В греко-римской мифологии, Сергестус[en], прародитель рода Сергиев, был другом Энея.[3] Этимология имени в этрусском языке неизвестна[4]. Церковная форма имени — Се́ргий (Се́ргия).
+В христианском именослове имя Сергей соотносится с раннехристианским святым Сергием Римлянином, воином, который, согласно преданию, принял мученическую смерть за открытое исповедание христианства в правление императора Максимиана (конец III века); другой раннехристианский святой с этим именем — преподобномученик Сергий Синайский, пострадавший за веру около 312 года. Впоследствии церковь канонизировала нескольких преподобномучеников с этим именем, что послужило причиной его закрепления в церковной среде.
+В средние века на Руси имя Сергей использовалось преимущественно духовенством. Среди святых с этим именем, прославленных церковью, — игумен Сергий Радонежский, один из наиболее почитаемых русских православных праведников.∫humanhu√!значение медведь∫Гаос√Медве́жьи[1] (лат. Ursidae) — семейство млекопитающих отряда хищных. Отличаются от других представителей псообразных более коренастым телосложением. Медведи всеядны, хорошо лазают и плавают, быстро бегают, могут стоять и проходить короткие расстояния на задних лапах. Имеют короткий хвост, длинную и густую шерсть, а также отличное обоняние. Охотятся вечером или на рассвете.
+Обычно остерегаются человека, но могут быть опасными в тех местах, где они привыкли к людям, особенно белый медведь и медведь гризли. Мало восприимчивы к пчелиным укусам из-за своей густой шерсти, чувствительны для медведей укусы пчёл в нос[2]. В природе естественных врагов почти не имеют (на юге Дальнего Востока России и в Маньчжурии на них могут нападать взрослые тигры).
+Общеславянское слово, соответствующее рус. «медведь», по происхождению является эвфемизмом, которым в обыденной речи замещалось настоящее табуированное имя животного[3]. Это первоначальное имя не сохранилось в славянских языках; индоевропейское название медведя было *r̥ḱs-os/*r̥ḱt-os, давшее лат. ursus (откуда в романских языках orso, ours и т. п.), греческое, кельтские, хеттское и санскритское названия, причём оно само, возможно, в праиндоевропейском языке было эвфемизмом[4]. Само слово «медведь» (от *medu-/medv- — «мёд», ср. медвяный + *ěd- — «есть, принимать пищу») значит «поедающий мёд». Стоит обратить внимание и на попытку[Чью?] сблизить слово медведь с санскритским madvadi «мёд едящий», которым в санскрите медведь не назывался[5].∫humanhu√люси здравствуй!∫Гаос√а?∫humanhu√люси хай)∫Гаос√што...∫humanhu√люся∫Гаос√каво∫humanhu√люси куку∫Гаос√а?∫humanhu√куку!) люси∫Гаос√а?∫humanhu√куку люся∫Гаос√куку∫humanhu√куку) люси∫Гаос√куку)∫humanhu√люси )∫Гаос√)∫humanhu√люси!)∫Гаос√!)∫humanhu√люся здравствуй!!!∫Гаос√здравствуй!!!∫humanhu√люська хай!)))∫Гаос√хай!)))∫humanhu√ЛЮСЯ ХААЙ))∫Гаос√хаай))∫humanhu√люси, хай∫Гаос√хай∫humanhu√люси,,, хай∫Гаос√што...∫humanhu√Люси, в вов или в кс∫Гаос√в вов∫humanhu√меведь или белка или лиса люси∫humanhu√люси∫humanhu√люся∫humanhu√Люси∫humanhu√люська∫humanhu√берсерк∫Гаос√берсерк∫humanhu√,∫humanhu√люська∫humanhu√люси∫humanhu√люся йоу∫humanhu√люся,∫humanhu√люси∫humanhu√люси,∫Гаос√а?∫humanhu√люся!∫humanhu√люси∫humanhu√люси!∫humanhu√люси)∫humanhu√люся,∫humanhu√люси∫humanhu√люська!∫humanhu√люси,∫Гаос√што...∫humanhu√люси∫humanhu√люси,∫humanhu√люси∫humanhu√люси∫humanhu√люси∫humanhu√люська∫humanhu√люси хай∫Гаос√хай∫humanhu√люси∫Гаос√а?∫humanhu√люська, ку∫Гаос√ку∫humanhu√люся хай∫humanhu√люся∫humanhu√люси∫humanhu√люс∫humanhu√люсия∫humanhu√люсяи∫humanhu√люська∫humanhu√люси∫humanhu√люся∫humanhu√люся,∫Гаос√каво∫humanhu√люси,∫Гаос√а?∫humanhu√люси∫Гаос√каво∫humanhu√люська∫Гаос√а?∫humanhu√люся  каво∫Гаос√што...∫humanhu√люси папа или мама или брат или дед∫Гаос√папа∫humanhu√машина или человек или медведь или мир люся∫Гаос√машина∫humanhu√люси 1 или 2 или 3 или 4 или   5   или   6 или    8∫Гаос√8∫humanhu√люси 1 илиии 2  или  4∫Гаос√4∫humanhu√Люси, белый или кадьяк∫Гаос√кадьяк∫humanhu√люси здравствуй!)∫Гаос√здравствуй!)∫humanhu√люси дароу∫Гаос√дароу∫humanhu√люська даров∫Гаос√даров∫humanhu√люси хай епта∫Гаос√каво∫humanhu√люси хай∫Гаос√хай∫humanhu√люси здарова епта∫Гаос√каво∫humanhu√ылваь ыла ывал ывьла ывлда ьывал люси щывалывзаолфызажщлызавы∫Гаос√каво∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫Гаос√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а  щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫Гаос√привет∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв∫Гаос√привет∫humanhu√люси привет)∫Гаос√привет∫humanhu√люси привет)∫Гаос√привет∫humanhu√люси хай)∫Гаос√хай∫humanhu√люси хай)∫Гаос√хай∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв хай) люси фыщлщук цк луцз щкуцщк уцлк ку! фывфыв фыв люська∫Гаос√привет∫humanhu√люси хай)∫Гаос√хай∫humanhu√люси, хай)∫Гаос√хай∫humanhu√хай) люси∫Гаос√хай∫humanhu√люси хай!∫Гаос√хай∫humanhu√люси хай∫Гаос√што...∫humanhu√люси хай!∫Гаос√хай∫humanhu√люси хай!∫Гаос√хай!∫humanhu√drmglaokdosf kasdpfksdfoksdpfk фщлахфыщалфы вщалвы а люси щыаыаофызваш ыва привет) фывлфыв хай) люси фыщлщук цк луцз щкуцщк уцлк ку! фывфыв фыв люська∫Гаос√привет)∫humanhu√люси дарова йопта∫Гаос√дарова∫humanhu√БЕРСЕРК.∫Гаос√БЕРСЕРК.∫humanhu√24∫Гаос√)∫humanhu√люси хай или привет∫Гаос√хай∫humanhu√люси хай или привет∫Гаос√привет∫humanhu√люси привет или пиздец∫Гаос√пиздец∫humanhu√data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…ENHQ2vaKJ4Vl3Dai2qTNrHsxFulxJpUqULprkawpUqVasn//Z∫humanhu√data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD…ENHQ2vaKJ4Vl3Dai2qTNrHsxFulxJpUqULprkawpUqVasn//Z∫humanhu√∫humanhu√!значение Андрей∫Гаос√баск. Ander
+удм. Ондӥ, Ондриян
+хант. Вәнтӑр
+Андре́й (от др.-греч. Ἀνδρέας — «мужественный, храбрый»[1]) — мужское имя греческого происхождения.
+Производные формы: Андрюха, Андрюша, Андрюня, Андрейка, Андря[1].
+Отчества: Андреевич, Андреевна; разговорные формы отчеств: Андреич, Андревна[1].
+Православные именины (даты даны по григорианскому календарю)[2][1]:
+В Исландии имя Андрей не разрешается давать детям. Специальный национальный реестр имён отклонил его, поскольку оно не соответствует канонам и правилам написания исландского языка. При этом в данном реестре есть пять вариантов имени Андрей, используемых представителями разных народов: Андреан, Андреас, Андэ, Андрес и собственно исландское Андри[3].
+
+От имени Андрей образована одна из распространённых русских фамилий — Андреев[4].∫humanhu√!значение дывавыа∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫Гаос√data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1LMnSG6DtRGTo_dsDMTe4-tIDIqeoyjt7LftWgHxzrhXuAIaYldXbqgoOg&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqD5KoEcUsjUMEgRkEk0e7a1Pt2eiP5i46mk92mU09iyS4rOmLUnuDKxgmJg&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNlnj1zeqYyCLULANtp5USMKg0ue5U3unnb3evnUmjGGwmF7iH-aLUVU1tdk&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1LMnSG6DtRGTo_dsDMTe4-tIDIqeoyjt7LftWgHxzrhXuAIaYldXbqgoOg&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9eMQMIuWh7GvtlkXE7SNHoW7quZ55SlMcJ8YTP4ALfhyJNZMF_dSBqMP4g&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1LMnSG6DtRGTo_dsDMTe4-tIDIqeoyjt7LftWgHxzrhXuAIaYldXbqgoOg&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNlnj1zeqYyCLULANtp5USMKg0ue5U3unnb3evnUmjGGwmF7iH-aLUVU1tdk&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdhdGmVurcoBlN5tLRX17RML1FKpERgSkIbySGN0lUsWteq6iEU7eaHy9_WQ&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWU4Vh6n0ZHrnyXHOhq24OnpkeD5b8h1z5hvUWRU3nwl7x-sS8Qi2W78PG1g&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyNlnj1zeqYyCLULANtp5USMKg0ue5U3unnb3evnUmjGGwmF7iH-aLUVU1tdk&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSbRX8eoeav1rdc2Y_yWPxUVxIwY-sbbLyYCWUTorzAe7O0VWrw3cEbmM_Uw&s∫humanhu√!изображение медведь∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DR7FaRemJCQAgIfd6wu8rZIG1xrXN2OwaV3vKf-uSduX69XS4tgpSAYhubM&s∫humanhu√!изображение солер∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGrpivIjjHpW-NFyH8ZllCxA53NPFxp2Fjuy4RgmyNeb3idcBq5xZUef0dbkk&s∫humanhu√!изображение брат∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr663fgXjoAnD6BLE2SHNkB8dX8kyQJDsxSbOkpP9I5tLZwNPvsj4VGNip8Hg&s∫humanhu√!изображение аянокоджи∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2qGGbbMUWx3PpOACa_iRTZcoKQ5Sjl4CNpDGrSpFZMvcv5wrymvTT2NIwgjM&s∫humanhu√!значение аниме∫Гаос√Аниме́ ([ɐnʲɪ'mɛ] ср., нескл., яп. アニメ (инф.) [anʲime], от англ. animation — «анимация»[1]) — японская мультипликация[2]. В отличие от мультфильмов других стран, предназначенных в основном для просмотра детьми, бо́льшая часть выпускаемого аниме рассчитана на подростковую и взрослую аудитории, и во многом за счёт этого имеет высокую популярность в мире[3]. Аниме отличается характерной манерой отрисовки персонажей и фонов[1]. Издаётся в форме телевизионных сериалов, а также фильмов, распространяемых на видеоносителях или предназначенных для кинопоказа[4]. Сюжеты могут описывать множество персонажей, отличаться разнообразием мест и эпох, жанров и стилей[1].
+Источниками для сюжета аниме-сериалов чаще всего являются: манга (японские комиксы)[5], ранобэ (лайт-новел) или компьютерные игры (как правило, в жанре «визуальный роман»)[6]. При экранизации обычно сохраняется графический стиль и другие особенности оригинала. Реже используются другие источники, например, произведения классической литературы. Есть также аниме, имеющие полностью оригинальный сюжет (в этом случае уже само аниме может послужить источником для создания по нему книжных и манга-версий). Значение термина «аниме» может варьироваться в зависимости от контекста[7]. В западных странах аниме является объектом исследования учёных-культурологов, социологов и антропологов — Эри Идзавы, Скотта Маклауда, Сьюзан Напьер, Шерон Кинселлы и других[8].∫humanhu√рор или аниме люси∫Гаос√аниме∫humanhu√люси хай)∫Гаос√хай)∫humanhu√люси фывфы∫Гаос√каво∫humanhu√!изображение лол∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpfRzllZnPnAMJSvtUusyks_YKT5PYgCs-dUxxAjG5b7BJN1yEiFkUh27vw&s∫humanhu√!изображение флывь фылв фыв лфыв щфыл авзфы алозцуеьйц уждебйц уедвыфздалвызщ алфы∫Гаос√https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1oUZwXTupBgtHIazEv3jC4v92WN0jQBhIfRXPqz8hOUXhCYgpZU-gBtmzPg&s∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!синонимы красота∫humanhu√!синонимы красивый∫humanhu√!синонимы сильный∫humanhu√!синонима сила∫humanhu√!синонимы сила∫humanhu√!синонимы доброта∫humanhu√!значение Брат∫Гаос√Брат — многозначное слово.
+Брат — мужчина, каждый из сыновей в отношении к другим детям от тех же родителей. Сводный брат. Во многих культурах существует установление братских дружеских отношений между мужчинами в ходе специального ритуала («братование», или братотворение): в прошлом оно было широко принято на Кавказе, у южных славян (особенно у сербов), а в христианской церкви существовал особый чин братотворения (ныне не принят)[1]. Братьями называются также христианские монахи (члены братств); для членов православных братств, не являющихся монахами, есть особый термин «братчики». Брат — пост, обет.[источник не указан 133 дня] Медицинский брат — медицинский работник со средним медобразованием. Близкий человек, единомышленник, друг. Фамильярное или дружественное обращение к постороннему человеку мужского пола.
+Сводный брат.
+Брат — гора (сопка) высотою 242 метра в Партизанском районе Приморского края России.
+1 Фильмы 2 Компьютерные игры 3 Музыка 4 Комикс 5 См. также 6 Примечания
+Брат (фильм): «Брат» — советский фильм 1982 года. «Брат» — российский фильм 1997 года режиссёра Алексея Балабанова. «Брат 2» (2000) — продолжение российского фильма Алексея Балабанова. «Брат 3» — российский фильм 2022 года, не связанный с дилогией Алексея Балабанова. Братишка — советский немой фильм 1927 года. Братушка — советско-белорусский художественный фильм 1975 года.
+«Брат» — советский фильм 1982 года. «Брат» — российский фильм 1997 года режиссёра Алексея Балабанова. «Брат 2» (2000) — продолжение российского фильма Алексея Балабанова. «Брат 3» — российский фильм 2022 года, не связанный с дилогией Алексея Балабанова.∫humanhu√!значение Брат∫Гаос√Брат — многозначное слово.
+Брат — мужчина, каждый из сыновей в отношении к другим детям от тех же родителей. Сводный брат. Во многих культурах существует установление братских дружеских отношений между мужчинами в ходе специального ритуала («братование», или братотворение): в прошлом оно было широко принято на Кавказе, у южных славян (особенно у сербов), а в христианской церкви существовал особый чин братотворения (ныне не принят)[1]. Братьями называются также христианские монахи (члены братств); для членов православных братств, не являющихся монахами, есть особый термин «братчики». Брат — пост, обет.[источник не указан 133 дня] Медицинский брат — медицинский работник со средним медобразованием. Близкий человек, единомышленник, друг. Фамильярное или дружественное обращение к постороннему человеку мужского пола.
+Сводный брат.
+Брат — гора (сопка) высотою 242 метра в Партизанском районе Приморского края России.
+1 Фильмы 2 Компьютерные игры 3 Музыка 4 Комикс 5 См. также 6 Примечания
+Брат (фильм): «Брат» — советский фильм 1982 года. «Брат» — российский фильм 1997 года режиссёра Алексея Балабанова. «Брат 2» (2000) — продолжение российского фильма Алексея Балабанова. «Брат 3» — российский фильм 2022 года, не связанный с дилогией Алексея Балабанова. Братишка — советский немой фильм 1927 года. Братушка — советско-белорусский художественный фильм 1975 года.∫humanhu√!значение Брат∫Гаос√Брат — многозначное слово.
+Брат — мужчина, каждый из сыновей в отношении к другим детям от тех же родителей. Сводный брат. Во многих культурах существует установление братских дружеских отношений между мужчинами в ходе специального ритуала («братование», или братотворение): в прошлом оно было широко принято на Кавказе, у южных славян (особенно у сербов), а в христианской церкви существовал особый чин братотворения (ныне не принят)[1]. Братьями называются также христианские монахи (члены братств); для членов православных братств, не являющихся монахами, есть особый термин «братчики». Брат — пост, обет.[источник не указан 133 дня] Медицинский брат — медицинский работник со средним медобразованием. Близкий человек, единомышленник, друг. Фамильярное или дружественное обращение к постороннему человеку мужского пола.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√https://www.peakpx.com/public/css/logo.svg∫humanhu√!изображение neko∫Гаос√https://st.deviantart.net/eclipse/popups/hover-component/il29_-_deviation_v3.svg∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√https://www.dictionary.com/e/wp-content/themes/dictionary-com/images/dictionary-logo-new.svg∫humanhu√!изображение neko∫Гаос√https://www.peakpx.com/public/css/logo.svg∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1553226439.9239/mwo,x1000,ipad_2_skin-pad,1000x1000,f8f8f8.jpg∫Гаос√https://assets.puzzlefactory.pl/public/images/logo/puzzle-factory-logo-140.png∫humanhu√isv-r PNCib MSM1fd BUooTd∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1670830671.4928/mwo,x1000,ipad_2_snap-pad,1000x1000,f8f8f8.jpg∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAE9 0lEQVRoQ9WYW0hlZRTHf94TIXXAYRQzQwmFQQSVYSZ6UlESH+whRxMDX6IHJ1AQCXFQkSFUCIUeCkETUx/CF1FB8ClNpFFEX8T UKWkyxgFngjRvJ9Z278Pe57Yv51Kul33O3mut7/9fa32X9UVxwyXqhuMn0gR+BbJ0QfsU+CaYIEaSgEuAulzKQ3lGR0fLzzngA 6ckIkpAA68HGxWlQHCMw7Ghg4i5AhBIBE4d+HTO3OZgscB5bW0tk5OTbtPV1VXu3bv3v8/AZ8DXwAmQODw8TFNTE0dHR6SlpWl kHFeCY0MLGSgE1lW9D4Fp4AdAfmvyO5BpwZdflVATuF5ijJIAnAUDMpBtuAhIYa+GC7RhFQvxIFoGQh2YiJXQR8AU8C6wE+Lg+ HQXjkhFNAvhICCREhLh8m3IRLgGEQIXgGxgmqwA3wHfqt9CUmGhIvAe8KMDRPGyQzuwc5sES+AXIEe8tbS0MDAwYAnL2dkZt2/ f5tWrV5p+nNOsmBH4EmjzgeoKiE5ISOD01NEZzO3y6uqKmJgY7X8S8DdwB/hDffkx8L2/yPgj0AwMipGAfPjwIS9fvmRmZsbtx 9fJ0lL4/Sitra1RVFQUyMUn6hwyncTPgLcrKyuZm5Ne41ok3SkpKVRVVRmIBAPal63aH7gbH9GJj4/n/FyZKk+AL/R2nhmQqDf v7++TnZ3t1uvu7ubx48dsbGxQUFAQasxe/pKSkpQ5Ijg0SUxM1MrVgFn/R35fNTQ0MDY25jZ8/fo1ycnJHB8fK89Iya1bt9ja2 iIjI8M9pJYd/R6jJ2DoWTUrMRocHKS5WaZFZEWifnIibcS1TE1NKfPRLwH5ODEx4TY4PDwkKysLWfb+K6mpqWF6WlqJa/HsoQ0 ZCPXKEg7SISOQk5PD3t6eAePFxYV+TTfFr6tpRXd0dJTGxsaAdgEJLC0t8eDBA8WBbDDqvY2Xw9jYWC4vL5X3vb29jIyMsLNzf Xq2mkUNfGdnJ11dXVppBLRva2ujr6+vF+hwl5QOnUsAa8BkAF9gdnd3yc3N5e7du2xubhrIic3CwgJlZWWm0ZcgSMb0Ivb3799 neXnZy97XCmSYzerMvtJA+yPga6MxRWtDQUgJOU9Rx5U7mToDaQ9FWbPekPLRbRwGlbq6OsNKZQNbUKr+bvB8nYX+kd1bDlieK Q4KQZDGdggoc9HOhAyETXZTqWk5tebn51NeXu6Iil0CcpS9Y3VF0SNKTU1Vjh1WRGpdPaQFVC8uLubp06ey7HlNDn/HaeV2wS4 Bz3XdCgkrY6h+ZX3/yWtyBxjEVVJSglzAWpUwE/AZ7EAdme15sL29TV5enlW+dHR00NPTE1C/tLSUxcVF2fKV1tVOBt4B9trb2 3nyRPoIa2InCzbKx2+gzXpi21kQmlZIyF5jpqd+l/74T3/hMyPgaEl98eKF0lH5k/X1dQoL5fbdv1RXV0vr+jNQEkjPCgFHJMR IQEobqklmZiYHBwemtSh99+zsrJJMM2VTBZ0DpZwqKiqYn5838+v4e1xcnHYCsITNkpIOzbZ688zz589JT093DNTTcGVlRTmJq jd871t1bJeA5lfOwcptVH9/P62trVbH89IbHx9HLhJUsY3HtoEHgt+At7R39fX1CCAzGRoa4tGjR3q1N4G/zOx8fQ+WgN7n58B XNkAIgyEb+j5VQ0kgWCyO7G88gX8BA0iEQE02M2MAAAAASUVORK5CYII=∫humanhu√!изображение neko∫Гаос√https://www.wallpaperflare.com/fpublic/css/logo.svg∫humanhu√!изображение neko∫Гаос√https://www.pngwing.com/public/css/pngwing.svg∫humanhu√!изображение neko∫Гаос√https://www.peakpx.com/public/css/logo.svg∫humanhu√!изображение neko∫Гаос√data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAE9 0lEQVRoQ9WYW0hlZRTHf94TIXXAYRQzQwmFQQSVYSZ6UlESH+whRxMDX6IHJ1AQCXFQkSFUCIUeCkETUx/CF1FB8ClNpFFEX8T UKWkyxgFngjRvJ9Z278Pe57Yv51Kul33O3mut7/9fa32X9UVxwyXqhuMn0gR+BbJ0QfsU+CaYIEaSgEuAulzKQ3lGR0fLzzngA 6ckIkpAA68HGxWlQHCMw7Ghg4i5AhBIBE4d+HTO3OZgscB5bW0tk5OTbtPV1VXu3bv3v8/AZ8DXwAmQODw8TFNTE0dHR6SlpWl kHFeCY0MLGSgE1lW9D4Fp4AdAfmvyO5BpwZdflVATuF5ijJIAnAUDMpBtuAhIYa+GC7RhFQvxIFoGQh2YiJXQR8AU8C6wE+Lg+ HQXjkhFNAvhICCREhLh8m3IRLgGEQIXgGxgmqwA3wHfqt9CUmGhIvAe8KMDRPGyQzuwc5sES+AXIEe8tbS0MDAwYAnL2dkZt2/ f5tWrV5p+nNOsmBH4EmjzgeoKiE5ISOD01NEZzO3y6uqKmJgY7X8S8DdwB/hDffkx8L2/yPgj0AwMipGAfPjwIS9fvmRmZsbtx 9fJ0lL4/Sitra1RVFQUyMUn6hwyncTPgLcrKyuZm5Ne41ok3SkpKVRVVRmIBAPal63aH7gbH9GJj4/n/FyZKk+AL/R2nhmQqDf v7++TnZ3t1uvu7ubx48dsbGxQUFAQasxe/pKSkpQ5Ijg0SUxM1MrVgFn/R35fNTQ0MDY25jZ8/fo1ycnJHB8fK89Iya1bt9ja2 iIjI8M9pJYd/R6jJ2DoWTUrMRocHKS5WaZFZEWifnIibcS1TE1NKfPRLwH5ODEx4TY4PDwkKysLWfb+K6mpqWF6WlqJa/HsoQ0 ZCPXKEg7SISOQk5PD3t6eAePFxYV+TTfFr6tpRXd0dJTGxsaAdgEJLC0t8eDBA8WBbDDqvY2Xw9jYWC4vL5X3vb29jIyMsLNzf Xq2mkUNfGdnJ11dXVppBLRva2ujr6+vF+hwl5QOnUsAa8BkAF9gdnd3yc3N5e7du2xubhrIic3CwgJlZWWm0ZcgSMb0Ivb3799 neXnZy97XCmSYzerMvtJA+yPga6MxRWtDQUgJOU9Rx5U7mToDaQ9FWbPekPLRbRwGlbq6OsNKZQNbUKr+bvB8nYX+kd1bDlieK Q4KQZDGdggoc9HOhAyETXZTqWk5tebn51NeXu6Iil0CcpS9Y3VF0SNKTU1Vjh1WRGpdPaQFVC8uLubp06ey7HlNDn/HaeV2wS4 Bz3XdCgkrY6h+ZX3/yWtyBxjEVVJSglzAWpUwE/AZ7EAdme15sL29TV5enlW+dHR00NPTE1C/tLSUxcVF2fKV1tVOBt4B9trb2 3nyRPoIa2InCzbKx2+gzXpi21kQmlZIyF5jpqd+l/74T3/hMyPgaEl98eKF0lH5k/X1dQoL5fbdv1RXV0vr+jNQEkjPCgFHJMR IQEobqklmZiYHBwemtSh99+zsrJJMM2VTBZ0DpZwqKiqYn5838+v4e1xcnHYCsITNkpIOzbZ688zz589JT093DNTTcGVlRTmJq jd871t1bJeA5lfOwcptVH9/P62trVbH89IbHx9HLhJUsY3HtoEHgt+At7R39fX1CCAzGRoa4tGjR3q1N4G/zOx8fQ+WgN7n58B XNkAIgyEb+j5VQ0kgWCyO7G88gX8BA0iEQE02M2MAAAAASUVORK5CYII=∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√Не найдено.∫Гаос√https://www.google.com/images/branding/searchlogo/1x/googlelogo_desk_heirloom_color_150x55dp.gif∫humanhu√!изображение neko∫Гаос√https://www.pngwing.com/public/css/pngwing.svg∫humanhu√!изображение neko∫Гаос√https://freepik.cdnpk.net/img/avatars/01.svg∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√Не найдено.∫humanhu√!изображение neko∫Гаос√https://freepik.cdnpk.net/img/avatars/01.svg∫humanhu√!изображение neko∫Гаос√https://www.pngwing.com/public/css/pngwing.svg∫humanhu√!изображение neko∫Гаос√https://ssl.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png∫humanhu√!изображение neko∫Гаос√https://i.pinimg.com/originals/6b/88/75/6b8875d1875dbfa29eca3ea0da9e4d06.jpg∫humanhu√!изображение neko∫Гаос√https://www.peakpx.com/public/css/logo.svg∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1670830671.4928/mwo,x1000,ipad_2_snap-pad,1000x1000,f8f8f8.jpg∫humanhu√!изображение neko∫Гаос√https://i.pinimg.com/originals/19/b4/38/19b43872cde1cc93b707fc3f5a635d3b.jpg∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ac328178-d847-46a2-9a49-db0f4a3d2375/d51ft6j-fb92648c-87ca-4e03-a0ed-8ebd908f3fcf.png/v1/crop/w_92,h_92,x_7,y_0,scl_0.13086770981508,q_70,strp/anime_render_pack__2_by_sebassoccer10_d51ft6j-92s.jpg∫humanhu√!изображение neko∫Гаос√https://www.redditstatic.com/desktop2x/img/renderTimingPixel.png∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1553226439.9239/mwo,x1000,ipad_2_skin-pad,1000x1000,f8f8f8.jpg∫humanhu√!изображение кошкодевочка∫humanhu√!изображение кошкодевочка∫Гаос√https://i.pinimg.com/75x75_RS/89/e9/6f/89e96f4c99d9fd580ff360c405aac370.jpg∫humanhu√!изображение кошкодевочка∫Гаос√https://ic.pics.livejournal.com/alek_juzhnyj/8608016/47335/47335_800.jpg∫humanhu√!изображение кошкодевочка∫Гаос√https://ic.pics.livejournal.com/uncle_ho/11790657/2895502/2895502_800.jpg∫humanhu√!изображение кошкодевочка∫humanhu√url.endsWith(".jpg")∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√"abs:href"∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√!изображение кошкодевочка∫Гаос√Не найдено.∫humanhu√https://www.google.com/imgres?imgurl=https%3A%2F%2Fcs10.pikabu.ru%2Fpost_img%2Fbig%2F2020%2F02%2F27%2F1%2F1582757069150910823.jpg&imgrefurl=https%3A%2F%2Fpikabu.ru%2Fstory%2Fneko_7255488&tbnid=TicGn82qtiIyMM&vet=12ahUKEwjfhI7S2pL9AhU2yrsIHY5nDq4QMygAegUIARC5AQ..i&docid=59D2SuA0pANUrM&w=1311&h=2024&q=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20neko&ved=2ahUKEwjfhI7S2pL9AhU2yrsIHY5nDq4QMygAegUIARC5AQ∫humanhu√https://cs10.pikabu.ru/post_img/big/2020/02/27/1/1582757069150910823.jpg∫humanhu√!изображение кошкодевочка∫Гаос√https://i.pinimg.com/originals/8f/98/43/8f98430f41a98cf3f30f07cd939e5de5.jpg∫humanhu√!изображение кошкодевочка∫Гаос√https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/9ZKKP6NpzIr.png∫humanhu√!изображение кошкодевочка∫Гаос√https://anime-chan.me/templates/animechan/images/animechan_logo.png∫humanhu√!изображение кошкодевочка∫Гаос√https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/9ZKKP6NpzIr.png∫humanhu√!изображение кошкодевочка∫Гаос√https://i.pinimg.com/originals/8f/98/43/8f98430f41a98cf3f30f07cd939e5de5.jpg∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫Гаос√https://rk.karelia.ru/wp-content/uploads/2016/02/LogoRespublika-200x200-2-1.png∫humanhu√!изображение медведь∫Гаос√Не найдено.∫humanhu√!изображение медведь∫humanhu√!изображение медведь∫Гаос√https://icdn.lenta.ru/images/2022/07/20/13/20220720135209104/owl_detail_240_5a0cd84aee077fe988dea94fc59b7a32.jpg∫humanhu√!изображение neko∫Гаос√https://assets.puzzlefactory.pl/puzzle/216/453/original.jpg∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/3eb7e172-305c-4cbd-b2c2-423e2368cce4/dedcdqe-b2fdfbeb-4738-4672-943a-6b600c56d49d.png/v1/crop/w_92,h_92,x_5,y_0,scl_0.092,q_70,strp/jujutsu_kaisen___renders_pack__01_by_luxkal27_dedcdqe-92s.jpg∫humanhu√!изображение neko∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Neko_Wikipe-tan.svg/220px-Neko_Wikipe-tan.svg.png∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1553226439.9239/mwo,x1000,ipad_2_snap-pad,1000x1000,f8f8f8.jpg∫humanhu√!изображение neko∫Гаос√https://ih1.redbubble.net/image.1670830671.4928/mwo,x1000,ipad_2_snap-pad,1000x1000,f8f8f8.jpg∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√https://assets.puzzlefactory.pl/puzzle/216/453/original.jpg∫humanhu√!изображение neko∫Гаос√https://c4.wallpaperflare.com/wallpaper/103/565/94/neko-ears-anime-girls-pink-ribbon-hd-wallpaper-preview.jpg∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b34773a-3364-4bde-924e-6d4e9258a8c4/decpjhr-07b9cd08-5073-476e-8a81-a6623a65f6f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZiMzQ3NzNhLTMzNjQtNGJkZS05MjRlLTZkNGU5MjU4YThjNFwvZGVjcGpoci0wN2I5Y2QwOC01MDczLTQ3NmUtOGE4MS1hNjYyM2E2NWY2ZjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.N6tMG9OcYNxrWaivjQ_srs9Ai1IrQ8DgC5BzjK5yvl0∫humanhu√!изображение neko∫Гаос√https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b34773a-3364-4bde-924e-6d4e9258a8c4/decpjhr-07b9cd08-5073-476e-8a81-a6623a65f6f3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZiMzQ3NzNhLTMzNjQtNGJkZS05MjRlLTZkNGU5MjU4YThjNFwvZGVjcGpoci0wN2I5Y2QwOC01MDczLTQ3NmUtOGE4MS1hNjYyM2E2NWY2ZjMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.N6tMG9OcYNxrWaivjQ_srs9Ai1IrQ8DgC5BzjK5yvl0∫humanhu√!изображение neko∫humanhu√!изображение neko∫humanhu√!изображение neko∫Гаос√https://targiplakatu.pl/wp-content/uploads/2023/01/nekopopkolor-600x848.jpg∫humanhu√!изображение neko∫Гаос√https://media.tenor.com/W9zN_El4pmkAAAAM/neko-anime.gif∫humanhu√!изображение neko∫Гаос√https://targiplakatu.pl/wp-content/uploads/2023/01/nekopopkolor-600x848.jpg∫humanhu√!изображение neko∫Гаос√https://i.pinimg.com/originals/6b/88/75/6b8875d1875dbfa29eca3ea0da9e4d06.jpg∫humanhu√!изображение neko∫Гаос√https://assets.puzzlefactory.pl/puzzle/216/453/original.jpg∫humanhu√!изображение neko∫Гаос√data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=∫humanhu√!изображение neko∫Гаос√https://targiplakatu.pl/wp-content/uploads/2023/01/nekopopkolor-600x848.jpg∫humanhu√!изображение hentai∫humanhu√!изображение hentai∫Гаос√https://hh-imgs.cyou/images/hh/v/l/Showtime Uta no Onee-san Datte Shitai 2.jpg∫humanhu√!изображение hentai∫Гаос√data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7∫humanhu√!изображение hentai∫Гаос√https://syndication.exoclick.com/ads-iframe-display.php?idzone=1946136&output=img&type=300x250∫humanhu√!изображение hentai∫Гаос√https://cdn77-pic.xvideos-cdn.com/videos/thumbslll/28/6c/c7/286cc75779f3bc1f65cbf8848f128a08/286cc75779f3bc1f65cbf8848f128a08.12.jpg∫humanhu√!изображение hentai∫Гаос√https://img.xxxtophd.com/ec/60/ec6025f337_1.jpg∫humanhu√!изображение hentai∫Гаос√data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7∫humanhu√!изображение hentai∫Гаос√https://cdn.hentaiworld.tv/wp-content/uploads/2020/04/cropped-logo-1.png∫humanhu√!изображение hentai∫humanhu√!изображение hentai∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hentai_-_yuuree-redraw.jpg/248px-Hentai_-_yuuree-redraw.jpg∫humanhu√!изображение hentai∫Гаос√https://m.hentai-for.net/uploads/posts/2023-02/thumbs/1675275617_1675155876_c1215610package-1.jpg∫humanhu√!изображение hentai∫Гаос√https://hh-imgs.cyou/images/hh/v/l/Showtime Uta no Onee-san Datte Shitai 2.jpg∫humanhu√!изображение hentai∫Гаос√https://cdn77-pic.xvideos-cdn.com/videos/thumbslll/1f/11/fe/1f11feb8960ea25d6bcdf59493cec2de/1f11feb8960ea25d6bcdf59493cec2de.15.jpg∫humanhu√!изображение hentai∫Гаос√https://ic-vt-lm.xhcdn.com/a/ZDRmMGE4NDc2ZmExMTdhMjU4MGJiZWJjYjg5Nzg0Zjc/s(w:320,h:180),jpeg/012/618/408/v2/320x180.252.jpg∫humanhu√!изображение hentai∫humanhu√!изображение hentai∫humanhu√!изображение hentai manga∫Гаос√https://img2.hentaicdn.com/hentai/cover/42/_S19656.jpg∫humanhu√!изображение hentai manga∫Гаос√https://pictures.abebooks.com/isbn/9781102835905-uk.jpg∫humanhu√!изображение Haykmund The Wildheart∫humanhu√!изображение Haykmund The Wildheart∫Гаос√https://photo.isu.pub/idfa/photo_large.jpg∫humanhu√!изображение Haykmund The Wildheart∫Гаос√Не найдено.∫humanhu√!изображение Haykmund The Wildheart∫humanhu√!изображение Haykmund The Wildheart∫Гаос√https://media.gettyimages.com/id/890334672/vector/cartoon-squirrel-holding-acorn-illustration.jpg?s=612x612&w=0&k=20&c=erIdnpkP8XaMnhGqMpuB35nE2a4RbT6oLYtjGN0_z-4=∫humanhu√!изображение Haykmund The Wildheart∫Гаос√Не найдено.∫humanhu√!изображение Haykmund The Wildheart∫Гаос√https://content.assets.pressassociation.io/2022/02/11161842/3d9f8854-98eb-4063-b0b6-b543d9da33db.jpg∫humanhu√!изображение Haykmund The Wildheart∫Гаос√https://media.gettyimages.com/id/890334672/vector/cartoon-squirrel-holding-acorn-illustration.jpg?s=612x612&w=0&k=20&c=erIdnpkP8XaMnhGqMpuB35nE2a4RbT6oLYtjGN0_z-4=∫humanhu√!изображение Haykmund The Wildheart∫humanhu√;java
+java```java
+java
+System.out.print("eeej");
+```java∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√123∫humanhu√∫humanhu√∫humanhu√ыа ыва ыва ыва ав∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√!nut∫humanhu√∫humanhu√∫humanhu√∫humanhu√∫humanhu√!тест медведь∫humanhu√!тест медведь∫humanhu√!тест ласка∫humanhu√!test медведь∫humanhu√!test bear∫Гаос√Не найдено.∫humanhu√!test медведь∫Гаос√Не найдено.∫humanhu√!test медведь∫Гаос√Не найдено.∫humanhu√!test медведь∫Гаос√Не найдено.∫humanhu√!test медведь∫Гаос√Не найдено.∫humanhu√!test медведь∫humanhu√!test медведь∫Гаос√Не найдено.∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/171136250/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5.jpg?s=612x612&w=0&k=20&c=9vW6GZDzilDtVclqX5jlH3WR2uUF3SmUcxY_D654qQA=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/514753795/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B1%D1%8B%D0%BA-%D0%B8-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D0%BE%D1%80%D0%B8%D0%B3%D0%B0%D0%BC%D0%B8.jpg?s=612x612&w=0&k=20&c=auR_LPmDqRjd2pxU3f4v9-Qc6uS7rcCZFc4oqV04Iqo=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1064136288/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BE%D0%BD%D0%B0-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D0%B8-%D0%B4%D0%B5%D1%82%D0%B5%D0%BD%D1%8B%D1%88%D0%B8.jpg?s=612x612&w=0&k=20&c=n2-zI8NU2lOClF4aG7dQ8P6AOEpPyxrKRDBs_7WiJAY=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1300854402/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%B5%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B8%D1%82-%D0%B8%D0%B7-%D0%B7%D0%B0-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0-%D0%B2-%D0%B2%D0%B5%D1%81%D0%B5%D0%BD%D0%BD%D0%B5%D0%B9-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5.jpg?s=612x612&w=0&k=20&c=XpyuUy0VqhrJZxFOqE639HNEgGDNZ5z0T2FSraPUjME=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1332053771/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BC%D0%B8%D0%BB%D1%8B%D0%B5-%D0%BF%D0%BE%D0%B7%D1%8B-%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F.jpg?s=612x612&w=0&k=20&c=VvrZDlhsdXvwyT9kh4AiI5hai_2UQQCgK62wEQIr9FM=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1131410502/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=xVjw-5DGvpEa4bc0IO-mSdulsk5lAnp6TO9rkVKmipg=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1155610132/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D1%8B%D0%BA-%D0%B8-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D0%BD%D0%B0-%D1%84%D0%BE%D0%BD%D0%B4%D0%BE%D0%B2%D0%BE%D0%BC-%D1%80%D1%8B%D0%BD%D0%BA%D0%B5-%D1%86%D0%B5%D0%BD%D1%8B.jpg?s=612x612&w=0&k=20&c=nVaqx1mzDOATOfRjhv8Mq5ZgmDmsrmmBlxppGaU2674=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/857511156/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D1%81%D0%B8%D0%BB%D1%83%D1%8D%D1%82%D1%8B-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B5%D0%B9-%D0%B8-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B6%D0%B0%D1%82.jpg?s=612x612&w=0&k=20&c=ci2GK_5yq1vxqc96BbazUqamuSvnGCGg4I1MVoAki5s=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1130445656/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F-%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=_i8DlTObExIquo5rDOUVgp_DkSPUsz71plh3VTDHJwA=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/1338422161/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BD%D0%B0%D0%B1%D0%BE%D1%80-%D0%B3%D1%80%D0%B8%D0%B7%D0%BB%D0%B8-%D0%B8%D0%BB%D0%B8-%D0%B1%D1%83%D1%80%D0%BE%D0%B3%D0%BE-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8F.jpg?s=612x612&w=0&k=20&c=332GrK0PqN1FbvGeePaGi9nvFk6cRe3Ia_g9Z05Va4M=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/171136250/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5.jpg?s=612x612&w=0&k=20&c=9vW6GZDzilDtVclqX5jlH3WR2uUF3SmUcxY_D654qQA=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/974789714/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BA%D0%BE%D0%BB%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B8-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D0%B5%D0%B9.jpg?s=612x612&w=0&k=20&c=iD_Ni5DmDm_87j-Vnt1IfaCHHLrxFECKGUunUnaszUU=∫humanhu√!test медведь∫Гаос√https://media.istockphoto.com/id/173617853/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D1%83%D1%80%D1%8B%D0%B9-%D0%BC%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%D1%8C.jpg?s=612x612&w=0&k=20&c=uBwomFXW90BN02vpM1Wcrbna9eeUIVuXTl94dU5Zaf4=∫humanhu√!test Хайкмунд∫Гаос√https://media.istockphoto.com/id/872177632/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B0%D0%BB%D1%8C%D0%BC%D0%B8%D1%80%D0%B0-%D1%81%D1%8D%D1%80%D0%B0.jpg?s=612x612&w=0&k=20&c=S018nWM9cFe6Nk2fgY17eKuL0K237Z1kShm7j1ir0dI=∫humanhu√!test Хайкмунд∫Гаос√https://media.istockphoto.com/id/1425778853/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B1%D0%B0%D1%88%D0%BD%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9-%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D0%B8-%D0%B1%D0%B0%D0%B9%D1%82%D1%83%D1%80%D1%80%D0%B0%D1%85%D0%BC%D0%B0%D0%BD%D0%B0-%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B2-%D0%B1%D0%B0%D0%BD%D0%B4%D0%B0-%D0%B0%D1%87%D0%B5%D1%85-%D0%B8%D0%BD%D0%B4%D0%BE%D1%8D%D0%BD%D0%B5%D0%B7%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=6wgfZ7oFQ141ErJtOeOIPfuLwoupkpj698Tot387TC8=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1033167768/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%88%D0%B0%D0%B3-%D0%B7%D0%B0-%D1%88%D0%B0%D0%B3%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=A4My9C9zWzH2fbviAb8cJfYQst1YAos58G9hgTLanfw=∫humanhu√!test Хайк∫Гаос√https://www.istockphoto.com/components/global-nav/static/static/IStockLogoDesktop-d56a576d394b4777edcc.svg∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1758638954/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BE%D0%B7%D0%B5%D1%80%D0%BE-%D0%BA%D1%80%D0%BE%D1%83%D0%BB%D0%B8-%D1%85%D0%B0%D0%B9%D0%BA-%D1%85%D0%B8%D0%BB%D0%BB.jpg?s=612x612&w=0&k=20&c=o1MnkDBjy8bG1soPRydA8fpc71fNDvbLPfK3D78SPMY=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1189736996/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%B8%D0%B7%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BA%D0%B5%D0%BC%D0%BF%D0%B8%D0%BD%D0%B3%D0%B0.jpg?s=612x612&w=0&k=20&c=Fi3Pbk-ilEQWT0wYU-FSeNlvO-vBd0f8amnrjMVaQ-M=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1415250052/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B2%D0%B7%D0%B3%D0%BB%D1%8F%D0%B4-%D0%BD%D0%B0-%D1%81%D0%B5%D0%B2%D0%B5%D1%80-%D0%BA%D1%8D%D1%80%D0%BD%D0%B3%D0%BE%D1%80%D0%BC%D1%81-%D1%88%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=fRZpzmfsjwWM2xWyXMdY7t51Ytv6okvScaLUrqTZgLU=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/669555256/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BD%D0%B0%D0%B1%D0%BE%D1%80-%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B5%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85-%D0%B7%D0%BD%D0%B0%D1%87%D0%BA%D0%BE%D0%B2.jpg?s=612x612&w=0&k=20&c=2KMcyEa_3hH9YCbTygri1iBdrpNY1Y3IEqPSZ-KZhxk=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1334563734/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%B0%D1%8F-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82-%D0%BF%D0%BE%D1%85%D0%BE%D0%B4-%D0%BD%D0%B0-%D0%B7%D0%B0%D0%BA%D0%B0%D1%82-%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9-%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D0%B9-%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D1%8B.jpg?s=612x612&w=0&k=20&c=0261e7YHjeTNXyF0rzaCswWsDZ-EUDrYIoxmReBPs0Y=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/874579764/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BF%D0%B5%D1%88%D0%B8%D0%B9-%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82-%D0%B3%D0%BB%D1%8F%D0%B4%D1%8F-%D0%BD%D0%B0-%D0%BF%D0%BE%D1%82%D1%80%D1%8F%D1%81%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D0%B3%D0%BE%D1%80%D0%BD%D1%8B%D0%B9-%D0%BF%D0%B5%D0%B9%D0%B7%D0%B0%D0%B6.jpg?s=612x612&w=0&k=20&c=XQbjrc2WY7BGO2SErutGsQYSB6X8Xg1rHSElPSdwu5M=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/1348836928/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%85%D0%BE%D1%83%D0%BB-%D1%85%D0%BE%D1%80%D0%BA%D1%83%D0%BC-%D1%85%D0%B0%D0%B9%D0%BA-%D0%B9%D0%BE%D1%80%D0%BA%D1%88%D0%B8%D1%80-%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D1%8F.jpg?s=612x612&w=0&k=20&c=7EGrD45oeX4OtFTEbu_mIay3s04TvyFBt4WLy3iCW_Y=∫humanhu√!test Хайк∫Гаос√https://media.istockphoto.com/id/925119242/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%8F-%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B8%D0%B7%D0%BC-%D0%BF%D0%BE%D1%85%D0%BE%D0%B4%D1%8B-%D0%B2-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5.jpg?s=612x612&w=0&k=20&c=DXZGIvh278kQEMQG4z92P0VXaPyfR28Fk7aKuVNbgvY=∫humanhu√!test Хайк Наапет∫Гаос√https://media.istockphoto.com/id/977828972/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82-%D0%BD%D0%B0-%D0%BF%D1%83%D1%82%D0%B8-%D0%BA-%D0%B3%D0%BE%D1%80%D0%B5-%D1%85%D0%B5%D1%80%D0%B0%D1%80%D0%B4-%D0%BA%D0%BE%D0%BB%D0%BE%D1%80%D0%B0%D0%B4%D0%BE-%D1%80%D0%BE%D0%BA%D0%B8.jpg?s=612x612&w=0&k=20&c=GG3MALAmLKQsJIYkGA3ly04QxQyIpM6vNKKe_yDWiiI=∫humanhu√!test Хайк Наапет∫Гаос√https://media.istockphoto.com/id/1200095687/ru/%D1%84%D0%BE%D1%82%D0%BE/%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82-%D0%BF%D0%BE%D0%B4%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F-%D0%B2-%D0%B3%D0%BE%D1%80%D1%83-%D0%BF%D1%80%D0%BE%D1%85%D0%BE%D0%B4%D1%8F-%D0%BF%D0%BE-%D1%80%D0%B5%D0%BA%D0%B5-%D0%BA%D0%B0%D0%BB%D0%B8-%D0%B3%D0%B0%D0%BD%D0%B4%D0%B0%D0%BA%D0%B8-%D0%BF%D0%BE%D1%85%D0%BE%D0%B4-%D0%BA-%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%B5%D0%BC%D1%83-%D0%BC%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%B3%D1%83-%D0%BD%D0%B5%D0%BF%D0%B0%D0%BB.jpg?s=612x612&w=0&k=20&c=whSM6eRhFoJcMLxCa90onyFIb3m6nRf_9dmr_tT9Zuc=∫humanhu√!test Хайк Наапет∫Гаос√https://media.istockphoto.com/id/1705872007/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B5%D1%88%D0%B8%D0%B9-%D0%BF%D0%BE%D1%85%D0%BE%D0%B4-%D0%BA-%D1%85%D0%B8%D0%B6%D0%B8%D0%BD%D0%B5.jpg?s=612x612&w=0&k=20&c=_pxx0pr0UWhUIzHM-uaDKnmBoTq4FyZcGM5qIMkBxiY=∫humanhu√!test Hayk Naapet∫Гаос√https://media.istockphoto.com/id/1257457935/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%BE%D0%B6%D0%B8%D0%BB%D0%BE%D0%B9-%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0-%D0%BA%D0%BE%D1%81%D0%B8%D1%82-%D1%82%D1%80%D0%B0%D0%B2%D1%83-%D0%B2-%D1%81%D0%B2%D0%BE%D0%B5%D0%BC-%D0%B4%D0%BE%D0%BC%D0%B5-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%BC-%D1%82%D1%80%D0%B8%D0%BC%D0%BC%D0%B5%D1%80%D0%BE%D0%BC.jpg?s=612x612&w=0&k=20&c=tKBgLPXIFfI098oGIIe4TRTUY4aGcF4MjlroIjW51Bs=∫humanhu√!test Hayk Naapet∫Гаос√https://media.istockphoto.com/id/171316067/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B8%D0%B2-%D0%B5%D0%B5-mediteranian-%D1%81%D0%B0%D0%B4-%D1%81-%D1%88%D0%BB%D0%B0%D0%BD%D0%B3.jpg?s=612x612&w=0&k=20&c=HcaD8nPdR7p-5y7csCRUAnQ_QRk1KSYKobfANUjC9pk=∫humanhu√!test Hayk Naapet∫Гаос√https://media.istockphoto.com/id/1345477732/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B0%D0%B2%D1%81%D1%82%D1%80%D0%B8%D1%8F-%D1%88%D1%82%D0%B8%D1%80%D0%B8%D1%8F-%D0%B7%D0%B0%D0%B1%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9-%D1%84%D0%B5%D1%80%D0%BC%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B9-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD.jpg?s=612x612&w=0&k=20&c=kaD2dCApOx-Y0MoIo8W408wdEN1GPz3jpg31CGhzeQE=∫humanhu√!test Hayk Naapet∫Гаос√https://media.istockphoto.com/id/171316067/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%BB%D0%B8%D0%B2-%D0%B5%D0%B5-mediteranian-%D1%81%D0%B0%D0%B4-%D1%81-%D1%88%D0%BB%D0%B0%D0%BD%D0%B3.jpg?s=612x612&w=0&k=20&c=HcaD8nPdR7p-5y7csCRUAnQ_QRk1KSYKobfANUjC9pk=∫humanhu√!тест Хайкмунд∫Гаос√https://media.istockphoto.com/id/1064228230/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0-%D1%88%D0%B2%D0%B5%D0%B7%D0%B8%D0%B3%D0%BE%D0%BD-%D0%B2-%D0%B1%D0%B0%D0%B3%D0%B0%D0%BD%D0%B5-%D0%BC%D1%8C%D1%8F%D0%BD%D0%BC%D0%B0.jpg?s=612x612&w=0&k=20&c=7G9B8fZi0Ggplzpzh3x1tLVobvR0e6Re26kaAfBe1Ng=∫humanhu√!тест Хайкмунд∫Гаос√https://media.istockphoto.com/id/1712641502/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B0%D1%80%D0%BE%D0%BC%D0%BD%D0%B0%D1%8F-%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B7%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%BE%D0%B4%D0%BA%D0%B5-%D0%B8%D0%BB%D0%B8-%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D0%B5-%D0%BE%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D1%82%D1%8C-%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D1%85-%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9-%D0%BF%D0%B0%D1%81%D1%81%D0%B0%D0%B6%D0%B8%D1%80%D0%BE%D0%B2.jpg?s=612x612&w=0&k=20&c=79f9OlDqVFZUuso3fnPvdVNW8iVKo9uaxnhKGag2fpo=∫humanhu√!тест Хайкмунд∫Гаос√https://media.istockphoto.com/id/941294934/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D1%8E%D1%89%D0%B0%D1%8F-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D1%8F-%D0%B2-%D0%BA%D0%B0%D0%BC%D0%B1%D0%BE%D0%B4%D0%B6%D0%B5.jpg?s=612x612&w=0&k=20&c=eT1ju61ZVrKVOgiuuLKDbHZoAT-IwhYN7GVyI4emxu0=∫humanhu√!тест Хайкмунд∫Гаос√https://media.istockphoto.com/id/1167777339/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BE%D0%B7%D0%B5%D1%80%D0%BE-%D1%82%D0%BE%D0%BD%D0%BB%D0%B5-%D1%81%D0%B0%D0%BF.jpg?s=612x612&w=0&k=20&c=bPSJ6auGARUj2fIEuFCbUCQqGMPad7pWB3q49rNjQRU=∫humanhu√!img2 медведь∫Гаос√Не найдено.∫humanhu√!img2∫Гаос√Не найдено.∫humanhu√!img2 медведь∫Гаос√https://cdnn21.img.ria.ru/images/07e7/03/1d/1861525819_0:0:3074:1729_600x0_80_0_0_67881cbfca2f5bd653b9d2763d0fb86c.jpg∫Гаос√https://mc.yandex.ru/watch/722889∫humanhu√!img2∫Гаос√Не найдено.∫humanhu√!img2 медведь∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Kodiak_Brown_Bear.jpg/120px-Kodiak_Brown_Bear.jpg∫Гаос√Не найдено.∫humanhu√!img2 медведь∫Гаос√https://aif-s3.aif.ru/images/032/628/277d70d5495492fad39d0a2ad7b87c41.jpg∫Гаос√https://mc.yandex.ru/watch/722889∫humanhu√!img2 медведь∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg/75px-Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg∫Гаос√Не найдено.∫humanhu√!img2 медведь∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Notification-icon-Commons-logo.svg/24px-Notification-icon-Commons-logo.svg.png∫Гаос√Не найдено.∫humanhu√!img2 медведь∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://ar.culture.ru/attachments/attachment/squared/5dd290bd0bbfc101a30ddfbb-squared.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://aif-s3.aif.ru/images/033/039/fe4486271bad3c0b2abcfd7c1bbc955d.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Ursus_arctos_syriacus.jpg/120px-Ursus_arctos_syriacus.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://cdnn21.img.ria.ru//i/loader_white.svg?∫Гаос√https://adfstat.yandex.ru/captcha?req_id=1705597657261991-9569302710975338949-balancer-l7leveler-kubr-yp-vla-149-BAL&unique_key=8be07380-d4ef6aa8-b6486c3f-d77f183e∫humanhu√!img2 медведь∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://www.interfax.ru/ftproot/textphotos/2024/01/18/mid700.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://gosinspekciya.gov.by/upload/medialibrary/021/021748f0e732fdf8ff95067b7a93bbe3.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://ichef.bbci.co.uk/news/640/cpsprodpb/E0C8/production/_119544575_coast.jpg∫Гаос√https://adfstat.yandex.ru/captcha?req_id=1705597776670481-8276195987239885928-balancer-l7leveler-kubr-yp-vla-144-BAL&unique_key=16d37662-806713bc-1f9daefc-fb5292d6∫humanhu√!img2 медведь∫Гаос√https://www.belta.by/images/storage/news/with_archive/2024/000019_1705570744_610432_small.jpg∫Гаос√https://mc.yandex.ru/watch/10630330?ut=noindex∫humanhu√!img2 медведь∫Гаос√https://admelizovo.ru/media/resized/I5UtbxIS6SRb_KWi1EABkIN5qIm7MPIAB6g5bigyo_c/rs:fit:471/aHR0cHM6Ly9hZG1l/bGl6b3ZvLnJ1L21l/ZGlhL3Byb2plY3Rf/bW9fMTg5Lzc2L2I2/LzFhL2U3L2M1LzZl/LzVhNmI0ZDVjNGJk/ZjkzOGRkMmJhN2Jh/M2U4OGI0MDljLmpw/Zw.jpg∫Гаос√https://adfstat.yandex.ru/captcha?req_id=1705597793215123-16121216271089654782-balancer-l7leveler-kubr-yp-vla-119-BAL&unique_key=177910e3-bd42c1ec-62ca88c-34f8b586∫humanhu√s∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫humanhu√!статистика∫Гаос√Conversation was successfully saved∫humanhu√!статистика∫Гаос√Conversation was successfully saved.∫humanhu√!статистика∫Гаос√Conversation was successfully saved.∫humanhu√!статистика∫Гаос√Conversation was successfully saved.∫humanhu√!статистика∫Гаос√Conversation was successfully saved.∫humanhu√!статистика∫

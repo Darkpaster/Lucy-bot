@@ -5,6 +5,8 @@ import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.*;
+import net.dv8tion.jda.api.entities.emoji.CustomEmoji;
+import net.dv8tion.jda.api.events.emoji.EmojiAddedEvent;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.events.interaction.component.ButtonInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
@@ -13,7 +15,9 @@ import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.react.MessageReactionAddEvent;
 import net.dv8tion.jda.api.interactions.components.buttons.Button;
 import net.dv8tion.jda.api.requests.GatewayIntent;
+import net.dv8tion.jda.api.utils.AttachmentProxy;
 import net.dv8tion.jda.api.utils.FileUpload;
+import org.darkpaster.NN.NeuralNetwork;
 import org.darkpaster.actor.hero.Hero;
 import org.darkpaster.utils.Coordinates;
 import org.darkpaster.utils.Random;
@@ -22,14 +26,22 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Scanner;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
+import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
+import java.util.function.UnaryOperator;
 
 import static org.darkpaster.GameGUI.*;
+import static org.darkpaster.Russian.read;
 
 public class Bot extends ListenerAdapter {
 
@@ -49,8 +61,6 @@ public class Bot extends ListenerAdapter {
     private boolean accountCreated = false;
 
 
-
-
     private final String commands = "__!help__ - I'll send a list of all commands (except for commands for chatting).\n" +
             "__!gameHelp__ - Idk this command yet.\n" +
             "__!roll *max value*__ - I'll send a random number from 0 to written value.\n" +
@@ -59,7 +69,9 @@ public class Bot extends ListenerAdapter {
     protected static MessageChannel chan;
     protected static Message message;
     protected static String msg;
+    protected static String prevMsg;
     protected static String realMsg;
+    protected static MessageReceivedEvent eventMsg;
 
     protected static Guild guild;
 
@@ -70,17 +82,30 @@ public class Bot extends ListenerAdapter {
 
     public static JDA jda;
 
+    static NeuralNetwork nn = null;
+    static boolean activated = false;
+
+    public static final ArrayList<String> usersMessages = new ArrayList<>();
+
 
     public static void main(String[] args) throws Exception {
+        if(args.length > 0) {
+            System.out.println(123);
+//            activated = true;
+//            UnaryOperator<Double> sigmoid = x -> 1 / (1 + Math.exp(-x));
+//            UnaryOperator<Double> dsigmoid = y -> y * (1 - y);
+//            nn = new NeuralNetwork(0.01, sigmoid, dsigmoid, 2500, 1024, 128, 1);
+//            nn.learnImg(20);
+        }
 
 
-        jda = JDABuilder.createLight("",
-                        GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGE_REACTIONS,
-                        GatewayIntent.DIRECT_MESSAGE_REACTIONS, GatewayIntent.GUILD_MEMBERS)
+
+        jda = JDABuilder.createLight("MTAzMTIzMjMyMzczMzE2NDA4Mg.GetuPM.7ktACySux3lMkbYvcgZr32LCRKlAhycwkhgWOE",
+                GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES, GatewayIntent.MESSAGE_CONTENT, GatewayIntent.GUILD_MESSAGE_REACTIONS,
+                GatewayIntent.DIRECT_MESSAGE_REACTIONS, GatewayIntent.GUILD_MEMBERS)
                 .addEventListeners(new Bot())
                 .setActivity(Activity.watching("Berserk"))
                 .build();
-        
 
 
         //jda.awaitReady().getCategories().get(0).getTextChannels().get(0).sendMessage("matawa").submit();
@@ -97,7 +122,7 @@ public class Bot extends ListenerAdapter {
             spawnMobs();
             buildWindow();
             StringBuilder realWindow = new StringBuilder();
-            for(String s: heroRealm){
+            for (String s : heroRealm) {
                 realWindow.append(s);
             }
             event.reply(getStatus() + realWindow + log)
@@ -118,13 +143,13 @@ public class Bot extends ListenerAdapter {
         GameGUI.enemyTurn();
         boolean z = false;
         z = hero.moveGUI(event.getComponentId());
-        if(z){
+        if (z) {
             log.append(MOVE + "```");
-        }else if(event.getComponentId().equals("ATK")){
-            if(target == null){
+        } else if (event.getComponentId().equals("ATK")) {
+            if (target == null) {
                 log.append("Нет цели.\n");
                 turns--;
-            }else{
+            } else {
                 System.out.println("XY enemy: " + target.getX() + "/" + target.getY());
                 System.out.println("XY hero: " + hero.getX() + "/" + hero.getY());
                 hero.attack(target);
@@ -132,12 +157,12 @@ public class Bot extends ListenerAdapter {
         }
 
         StringBuilder realWindow = new StringBuilder();
-        for(String s: heroRealm){
+        for (String s : heroRealm) {
             realWindow.append(s);
         }
-        if(hero.getHP() <= 0){
+        if (hero.getHP() <= 0) {
             event.editMessage("Ты помер.").queue();
-        }else {
+        } else {
             event.editMessage(getStatus() + realWindow + log).queue();
         }
     }
@@ -147,7 +172,9 @@ public class Bot extends ListenerAdapter {
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
         //getContentDisplay() - сообщение в том виде, в котором появляется в дискорде
         //getContentRaw() - в необработанном виде //86
+        eventMsg = event;
         message = event.getMessage();
+        List<MessageEmbed> embeds = message.getEmbeds();
         msg = event.getMessage().getContentDisplay();
         realMsg = event.getMessage().getContentRaw();
         chan = event.getChannel();
@@ -157,6 +184,19 @@ public class Bot extends ListenerAdapter {
             guild = message.getGuild();
             guild.upsertCommand("game", "Test game.").queue();
             guild.updateCommands().queue();
+        }
+
+        if(msg.equals("!get channel") && usersMessages.size() < 1){
+            String[] messages = read(new File(chan.getName()+".txt")).split("∫");
+            for(String m: messages){
+                if(m.startsWith("haykmund")){
+                    usersMessages.add(m.replaceFirst("haykmund", "").replaceAll("√", ""));
+                }
+                if(m.startsWith("humanhu")){
+                    usersMessages.add(m.replaceFirst("humanhu", "").replaceAll("√", ""));
+                }
+            }
+            System.out.println(usersMessages.size());
         }
 
         if (msg.equals("!help")) {
@@ -176,12 +216,12 @@ public class Bot extends ListenerAdapter {
 
         if (msg.startsWith(".roll")) {
             try {
-                if(msg.contains("-")){
+                if (msg.contains("-")) {
                     int i = Integer.parseInt(msg.substring(".roll".length(), msg.indexOf("-")).replaceAll(" ", ""));
                     msg.replaceAll("-", "");
                     int i2 = Integer.parseInt(msg.substring(msg.indexOf("-") + 1).replaceAll(" ", ""));
-                    send(user.getName() + " rolls **" + roll(i, i2) + "** ("+ i +" - " + i2 + ")");
-                }else{
+                    send(user.getName() + " rolls **" + roll(i, i2) + "** (" + i + " - " + i2 + ")");
+                } else {
                     int i = Integer.parseInt(msg.substring(".roll".length()).replaceAll(" ", ""));
                     send(user.getName() + " rolls **" + roll(i) + "** (1 - " + i + ")");
                 }
@@ -211,9 +251,46 @@ public class Bot extends ListenerAdapter {
             }
 
         }
-
         if (!user.isBot()) {
-
+            List<Message.Attachment> att = message.getAttachments();
+            if(att.size() > 0 && activated){
+                InputStream in = null;
+                System.out.println(1234);
+                for(Message.Attachment attach: att){
+                    if(attach.isImage()){
+                        System.out.println(123);
+                        boolean checkbox = false;
+                        try {
+                            URL url = new URL(attach.getProxy().getUrl(50, 50));
+                            URLConnection connection = url.openConnection();
+                            connection.addRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
+                            connection.connect();
+                            in = connection.getInputStream();
+                            Files.copy(in, Paths.get("bear.jpg"), StandardCopyOption.REPLACE_EXISTING);
+                            in.close();
+                            BufferedImage img = ImageIO.read(new File("bear.jpg"));
+                            double[] input = new double[img.getHeight() * img.getWidth()];
+                            for (int y = 0; y < img.getHeight(); y++) {
+                                for (int x = 0; x < img.getWidth(); x++) {
+                                    input[y * img.getWidth() + x] = (img.getRGB(x, y) & 0xff) / (255.0 * 3);
+                                }
+                            }
+                            double[] answer = nn.feedForward(input);
+                            if (answer[0] > 0.5) {
+                                checkbox = true;
+                                System.out.println("true");
+                            }
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        if(checkbox){
+                            System.out.println(1231241223);
+                            message.addReaction(HEART).queue();
+                            break;
+                        }
+                    }
+                }
+            }
             if (gameStarted && chan.equals(gameChannel)) {
                 createGame();
             } else {
@@ -221,8 +298,39 @@ public class Bot extends ListenerAdapter {
                 Russian.general();
             }
 
+            if(usersMessages.size() > 0 && Math.random() > 0.95d){
+                String randomMes;
+                do{
+                    randomMes = Random.randomString(usersMessages);
+                }while(randomMes.length() > 35);
+                message.reply(randomMes).submitAfter(2, TimeUnit.SECONDS);
+            }
+//            if(msg.equals("_test!")){
+//                //message.reply("123").timeout(2, TimeUnit.SECONDS).queue();
+//                //System.out.println(123);
+//                ArrayList<String> test = new ArrayList<>();
+//                test.add("1");
+//                test.add("12");
+//                test.add("123");
+//                message.reply(Random.randomString(test)).submitAfter(2, TimeUnit.SECONDS);
+//            }
         }
+//            if(att.size() > 0){
+//                System.out.println("att size > 0");
+//                for(Message.Attachment a: att){
+//                    System.out.println("att "+a);
+//                    if(a.isImage()){
+//                        System.out.println("att is image");
+//                        try {
+//                            System.out.println(a.getProxy().downloadToFile(new File("wtf.jpeg")).get().getPath());
+//                        } catch (Exception e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                }
+//            }
 
+        prevMsg = msg;
 
     }
 
@@ -465,7 +573,7 @@ public class Bot extends ListenerAdapter {
         if (msg.equalsIgnoreCase("berserk")) {
             send("Berserk.");
         }
-        if (msg.equalsIgnoreCase("Lucy")) {
+        if (msg.equalsIgnoreCase("Gaos")) {
 
             boolean z = roll(100) < 30;
             boolean z2 = roll(100) < 60;
@@ -495,17 +603,17 @@ public class Bot extends ListenerAdapter {
             }
         }
 
-        if (msg.equalsIgnoreCase("Lucy stop")) {
+        if (msg.equalsIgnoreCase("Gaos stop")) {
             send("(");
         }
 
-//        if(msg.equalsIgnoreCase("Lucy hi") || msg.equalsIgnoreCase("Lucy hello") || msg.equalsIgnoreCase("Lucy hi there")){
+//        if(msg.equalsIgnoreCase("Guts hi") || msg.equalsIgnoreCase("Guts hello") || msg.equalsIgnoreCase("Guts hi there")){
 //            send("Hi " + user.getName() + ".");
 //        }
 
-        if (msg.toLowerCase().contains("lucy")) {
+        if (msg.toLowerCase().contains("Gaos")) {
 
-            if ((msg.contains("say hi to") || msg.contains("say hello to")) && msg.toLowerCase().startsWith("lucy")) {
+            if ((msg.contains("say hi to") || msg.contains("say hello to")) && msg.toLowerCase().startsWith("Gaos")) {
                 int index = msg.indexOf("to");
                 String index2 = msg.substring(index);
                 String nickname = index2.substring(index2.indexOf(" "));
@@ -514,7 +622,7 @@ public class Bot extends ListenerAdapter {
                 } else {
                     send("Hello " + nickname + ".");
                 }
-            } else if ((msg.contains("hi") || msg.contains("sup") || msg.contains("hello") || msg.contains("wassup")) && msg.toLowerCase().startsWith("lucy")) {
+            } else if ((msg.contains("hi") || msg.contains("sup") || msg.contains("hello") || msg.contains("wassup")) && msg.toLowerCase().startsWith("Gaos")) {
                 send("Hi " + user.getName() + ".");
             }
 
@@ -616,19 +724,18 @@ public class Bot extends ListenerAdapter {
 
     @Override
     public void onMessageReactionAdd(@NotNull MessageReactionAddEvent event) {
+        //System.out.println(event.getReaction().getEmoji().getName());
         //System.out.println(event.getReaction().getEmoji());
 
         //send("Meow.");
     }
 
 
-    private int roll(int max) {
-        max++;
-        return max > 0 ? (int) ((Math.random() * (max - 1)) + 1) : 0;
+    public static int roll(int max) {
+        return max > 0 ? Random.Int(max) : 0;
     }
 
-    private int roll(int min, int max){
-        max++;
-        return (int) ((Math.random() * (max - min)) + min);
+    public static int roll(int min, int max){
+        return Random.IntRange(min, max);
     }
 }

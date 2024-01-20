@@ -1,5 +1,7 @@
 package org.darkpaster.utils;
 
+import java.util.ArrayList;
+
 public class Random {
 
     public static int Int(int max) {
@@ -29,6 +31,10 @@ public class Random {
 
     public static String randomString(String... strings){
         return strings[Int(strings.length - 1)];
+    }
+
+    public static String randomString(ArrayList<String> strings){
+        return strings.get(Int(strings.size() - 1));
     }
 
 }
